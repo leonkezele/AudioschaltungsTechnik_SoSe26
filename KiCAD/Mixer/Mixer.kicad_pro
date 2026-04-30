@@ -416,7 +416,7 @@
         "uuid": "322d427a-6aae-4762-92d6-d97688daf29b"
       }
     ],
-    "used_designators": "#PWR23-34",
+    "used_designators": "D3-4,#PWR6,#PWR35-55,J1-4",
     "variants": []
   },
   "sheets": [
@@ -463,6 +463,10 @@
     [
       "f8b5cd99-5289-4771-acd9-e37698eefb16",
       "Inputs"
+    ],
+    [
+      "932feda2-710a-4894-b943-37dbe0c193d3",
+      "Channel Power"
     ],
     [
       "6a58bca2-97a3-443a-827f-6d27f99c79d6",
