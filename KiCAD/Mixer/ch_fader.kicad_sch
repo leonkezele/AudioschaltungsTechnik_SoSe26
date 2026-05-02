@@ -999,7 +999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
 			(at 59.69 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1066,16 +1066,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "9647a2ff-d7b5-479f-b8a9-249de052d87a")
+			(uuid "dd8ac373-d83b-4287-9910-dbc84ac977e4")
 		)
 		(pin "1"
-			(uuid "fa1ff618-a83d-44af-8673-cc9e7180e333")
+			(uuid "49183e66-e1b1-46c3-848a-defa9ccdce7e")
 		)
 		(pin "3"
-			(uuid "0a0e542f-10a8-4777-8829-f602c390b28d")
+			(uuid "adabeed4-194b-4b7a-ae48-c39cab163cb2")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/16e913e7-17a4-4352-8574-3ad25c822c3f"
+					(reference "RV6")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
 					(reference "RV2")
 					(unit 1)
@@ -1149,13 +1153,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "24454600-8be2-4fcd-80c8-61efb1eabcaa")
+			(uuid "6cd4000f-5244-4ea1-ba02-3adf61bbd1a7")
 		)
 		(pin "1"
-			(uuid "e88ee5f6-0965-41a7-bdac-998922d29ed9")
+			(uuid "7ec8d7a0-6748-41e5-8fbe-b3e2caa3ab4a")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/16e913e7-17a4-4352-8574-3ad25c822c3f"
+					(reference "R20")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
 					(reference "R4")
 					(unit 1)
@@ -1230,10 +1238,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0dc568d1-4058-43c9-8c52-29ed6cc0d868")
+			(uuid "b82edc36-a6b8-42eb-b4f6-aaf9d90f68bb")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/16e913e7-17a4-4352-8574-3ad25c822c3f"
+					(reference "#PWR089")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
 					(reference "#PWR05")
 					(unit 1)
@@ -1308,10 +1320,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e14d890-12b2-419d-a111-0cc67d87e2fa")
+			(uuid "ed26af4d-e8db-4b07-a9a0-27a2feab0e54")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/16e913e7-17a4-4352-8574-3ad25c822c3f"
+					(reference "#PWR088")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
 					(reference "#PWR02")
 					(unit 1)
@@ -1385,7 +1401,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "ae2613dc-1681-4223-8e9b-46b55fe35a9e")
+			(uuid "e188c390-6538-474d-8840-2be04417255b")
 		)
 		(pin "8"
 			(uuid "4bdd8412-a7dd-4206-8b35-742a5d182400")
@@ -1394,10 +1410,10 @@
 			(uuid "caf778c2-bd1e-46a4-b0b7-2205e9487472")
 		)
 		(pin "5"
-			(uuid "86447256-a4e5-4efd-91fc-379915d043f9")
+			(uuid "b81c41c1-e888-4a5b-a5e6-7c4409ca996c")
 		)
 		(pin "7"
-			(uuid "00b3fd7f-9146-4bf1-9df0-b814bde49f6e")
+			(uuid "c2a0b60f-d88f-44f3-8efc-b9ab75098ba3")
 		)
 		(pin "3"
 			(uuid "776220ef-a189-4070-ad37-ee70e3f49488")
@@ -1410,6 +1426,10 @@
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/16e913e7-17a4-4352-8574-3ad25c822c3f"
+					(reference "U2")
+					(unit 2)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
 					(reference "U1")
 					(unit 2)

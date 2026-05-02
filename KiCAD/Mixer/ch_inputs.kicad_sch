@@ -174,6 +174,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -312,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 72.39 50.8)
+			(xy 58.42 50.8) (xy 60.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -329,6 +484,16 @@
 			(type default)
 		)
 		(uuid "e11c8045-d73a-4fa4-a5b7-978ea7904b8a")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc0251c-05b0-4c24-9528-9b3739bb24e0")
 	)
 	(wire
 		(pts
@@ -394,7 +559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eigene:TRS-BHT 3,5mm"
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 53.34 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -428,13 +593,17 @@
 			)
 		)
 		(pin "T"
-			(uuid "129095ce-04ac-4a88-b67f-331cfb1971e6")
+			(uuid "32481e53-39c7-4dad-82a5-74500c5b5610")
 		)
 		(pin "S"
-			(uuid "0ddabba3-e94c-4b2a-8969-f9d203b35560")
+			(uuid "e5219e66-760b-48e3-995f-a753602b6c90")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/1134652d-8354-4f6a-9b2f-dc88b7881384"
+					(reference "J5")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
 					(reference "J1")
 					(unit 1)
@@ -509,12 +678,100 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c0ecdd6-2510-43c9-a4ea-45a0d256d59e")
+			(uuid "de8a50b5-423e-40ac-990a-60f3a768d2d5")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/1134652d-8354-4f6a-9b2f-dc88b7881384"
+					(reference "#PWR076")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e070edb9-5177-4241-a308-19126ae02de5")
+		(property "Reference" "C1"
+			(at 64.77 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470u"
+			(at 64.77 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.58 49.8348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c93c754-6e38-40a8-a71a-54df3ea6a4c8")
+		)
+		(pin "2"
+			(uuid "c35fcf0d-05fc-4b16-9560-7d694c89ec8e")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/1134652d-8354-4f6a-9b2f-dc88b7881384"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -587,10 +844,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc0e47c0-fd2f-4e07-b76b-dcefd8ab6924")
+			(uuid "4b377fe8-ea92-4caa-8c58-a293cfc5a9ce")
 		)
 		(instances
 			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/1134652d-8354-4f6a-9b2f-dc88b7881384"
+					(reference "#PWR075")
+					(unit 1)
+				)
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
 					(reference "#PWR035")
 					(unit 1)
