@@ -2027,7 +2027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "220n"
 			(at 80.01 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)

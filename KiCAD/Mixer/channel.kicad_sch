@@ -1135,6 +1135,17 @@
 		)
 		(uuid "d844fe8d-338e-41f7-afdb-2116ebc07bcf")
 	)
+	(text "10u an die Versorgungspins \nOPVs\nClipping Rs 10 zu 1 & Sockel"
+		(exclude_from_sim no)
+		(at 120.396 153.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8998841-c668-42d1-ad6e-1bb029d4105d")
+	)
 	(text "Channel A\n"
 		(exclude_from_sim no)
 		(at 21.59 16.002 0)
