@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +223,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -632,7 +650,7 @@
         "uuid": "322d427a-6aae-4762-92d6-d97688daf29b"
       }
     ],
-    "used_designators": "J6,D3-4,C11-42,#PWR47-50,#PWR99-128,U7-8,RV9-10,R25-28",
+    "used_designators": "#PWR1-4,#PWR6-8,#PWR35-41,#PWR52,#PWR54,C2,C5,C14,C16-17",
     "variants": []
   },
   "sheets": [
@@ -669,11 +687,11 @@
       "Pan"
     ],
     [
-      "314cbc86-fcd1-4a7f-a183-f8afb719e0b8",
+      "521df6ec-35bd-4de2-8e8a-dfa124c60ecf",
       "Send"
     ],
     [
-      "8a6fa50f-425a-481d-926c-437edf9380b2",
+      "2339b41c-0b4b-469c-8280-8e71cc37578f",
       "Main Mix"
     ],
     [
@@ -713,20 +731,12 @@
       "Inputs1"
     ],
     [
-      "63151d98-ae0a-469c-944a-54e511d723e3",
-      "Main Mix1"
-    ],
-    [
       "ec4e71c2-26db-4ba4-aad5-0bfc40b10850",
       "Mute1"
     ],
     [
       "cea36016-c788-4767-8a0d-1508f3be4f70",
       "Pan1"
-    ],
-    [
-      "458d1d42-567e-4cb2-9f3d-b6971582f7d3",
-      "Send1"
     ]
   ],
   "text_variables": {},
