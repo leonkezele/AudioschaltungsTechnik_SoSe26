@@ -908,6 +908,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
 		(at 46.99 49.53 0)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -915,9 +916,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3e643801-59bf-4091-ac32-b4a6b259f958")
+		(uuid "301a1449-2151-46e7-b915-888b32d8cbc6")
 		(property "Reference" "RV3"
-			(at 45.974 48.26 0)
+			(at 45.974 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -928,7 +929,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 42.926 51.308 0)
+			(at 42.926 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1027,10 +1028,10 @@
 			)
 		)
 		(pin "4"
-			(uuid "47bda4d4-1182-423b-9a09-6564853d0148")
+			(uuid "8f9e879f-79c3-463c-a2b8-7acea0addb78")
 		)
 		(pin "5"
-			(uuid "ac5c289f-89d5-46d9-9efd-8f3f4a67f729")
+			(uuid "b7e40abf-f259-4e3d-a3b6-800fbc742482")
 		)
 		(pin "2"
 			(uuid "3d6c4436-3bb2-489a-9f72-c32a63ddf89f")
@@ -1039,7 +1040,7 @@
 			(uuid "dab5f538-71a6-470e-9025-886370102b29")
 		)
 		(pin "6"
-			(uuid "3d38243d-124f-46bd-aa0e-baf3355ff0e1")
+			(uuid "d429de29-c7a4-42b5-9238-243cb757b0be")
 		)
 		(pin "3"
 			(uuid "b8f02a26-2a0e-4bb4-8ec6-9f0dc013dfce")

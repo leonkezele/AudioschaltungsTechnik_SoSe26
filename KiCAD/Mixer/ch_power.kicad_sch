@@ -562,6 +562,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ferrite beads  und kondensatoren!"
+		(exclude_from_sim no)
+		(at 38.1 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "befaaa9e-feb5-43df-a953-92e7f69e01ba")
+	)
 	(junction
 		(at 62.23 35.56)
 		(diameter 0)
@@ -891,7 +901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45225163-be49-4651-b764-0cf0b97d9773")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 64.77 28.8925 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -913,7 +923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 57.785 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -947,15 +957,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6aed72aa-a778-4e9f-a921-b2a36fe0272e")
+			(uuid "d36edeaa-c7f5-45df-b5f7-fd41089e8f8c")
 		)
 		(pin "1"
-			(uuid "edf262ca-d16d-4753-b656-b0960f4f552b")
+			(uuid "967710c9-98cb-4200-a432-f6e3e04d90cc")
 		)
 		(instances
 			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "D3")
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/2bdf0d3e-99d6-4fd9-a48e-373c3c910b53/a05199cc-8720-434a-8cee-06adcbb81d6b"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -973,7 +983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711c95e3-c42a-4752-b115-fee59e5269d5")
-		(property "Reference" "J6"
+		(property "Reference" "J19"
 			(at 62.23 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +1003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
 			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1027,39 +1037,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ff42cfc-ac69-4650-81b4-246b821c69c1")
+			(uuid "0fb6d768-6d99-47aa-a0da-8a52c3c8ef5a")
 		)
 		(pin "5"
-			(uuid "d9fb8b7d-51c1-4b24-80fd-18cafc3c9c56")
+			(uuid "e4039f83-c60d-47a0-a757-b0126c6a9d45")
 		)
 		(pin "7"
-			(uuid "8bf5a843-fe2c-4725-99ac-e6509ec9c8e8")
+			(uuid "07b51c06-f31c-4252-9d27-45bc0d7ca6d0")
 		)
 		(pin "8"
-			(uuid "7ee35f51-3381-4eff-b6be-721befc0d56e")
+			(uuid "0a708bbb-8590-4be7-82f1-6a946db75930")
 		)
 		(pin "3"
-			(uuid "5f81e969-cef2-4557-bc91-c3bcd5f994d9")
+			(uuid "9ea16e53-88e2-4a49-862d-9da03a416ad9")
 		)
 		(pin "9"
-			(uuid "1d927bec-9394-4f70-8558-b59d93fd7e8b")
+			(uuid "cae984f8-ce0c-44be-adad-46e76f1a633d")
 		)
 		(pin "2"
-			(uuid "6f1e19ad-879d-4009-8582-025dd82cca03")
+			(uuid "ac5cc14d-e3bb-42df-9123-8dfa2d779594")
 		)
 		(pin "6"
-			(uuid "609c6040-8738-4830-b05a-881a49f1f8f1")
+			(uuid "f01e9c88-86a9-409a-80b4-08274cd41c0c")
 		)
 		(pin "4"
-			(uuid "c28dfb76-7843-4006-845a-3e8da1dddd88")
+			(uuid "a78f98f8-c4a1-4979-8beb-4057b458aff6")
 		)
 		(pin "10"
-			(uuid "6e2aaece-8abd-4432-9e98-adc0883cd1e8")
+			(uuid "8476355b-2a8b-45dc-bc8f-8c79f00c19f3")
 		)
 		(instances
 			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "J6")
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/2bdf0d3e-99d6-4fd9-a48e-373c3c910b53/a05199cc-8720-434a-8cee-06adcbb81d6b"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -1077,7 +1087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2bd26a6-e5c1-4377-9100-7b413101e7be")
-		(property "Reference" "D4"
+		(property "Reference" "D8"
 			(at 64.77 61.9125 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1099,7 +1109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 57.785 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1133,15 +1143,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d5555e4-e8e2-4be3-8fb4-173feb77c492")
+			(uuid "bf76c2f0-0bd8-4253-b456-a2e3d69f6a7d")
 		)
 		(pin "1"
-			(uuid "2f0313c6-a383-497f-9273-f2bdac50a2ad")
+			(uuid "4c79d7fc-7dce-43ee-808a-03b3420d80dd")
 		)
 		(instances
 			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "D4")
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/2bdf0d3e-99d6-4fd9-a48e-373c3c910b53/a05199cc-8720-434a-8cee-06adcbb81d6b"
+					(reference "D8")
 					(unit 1)
 				)
 			)

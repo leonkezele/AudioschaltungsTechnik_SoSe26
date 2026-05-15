@@ -620,6 +620,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -632,7 +640,7 @@
         "uuid": "322d427a-6aae-4762-92d6-d97688daf29b"
       }
     ],
-    "used_designators": "J6,D3-4,C11-42,#PWR47-50,#PWR99-128,U7-8,RV9-10,R25-28",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -641,48 +649,12 @@
       "Stammblatt"
     ],
     [
-      "8a2849b7-184d-4014-bb98-da9dec8b5f90",
-      "Channel"
-    ],
-    [
       "2bdf0d3e-99d6-4fd9-a48e-373c3c910b53",
       "Main"
     ],
     [
-      "ec5da5cc-7c1b-4e14-ac3c-00357a5f573e",
-      "Inputs"
-    ],
-    [
-      "874eb9e3-c612-43fb-9dc5-24309708e7ee",
-      "Gain"
-    ],
-    [
-      "bf84a5ed-2042-40b8-aca0-adb831118b62",
-      "Mute"
-    ],
-    [
-      "e455183a-ba3c-419d-9cae-765ff61c6b78",
-      "Fader"
-    ],
-    [
-      "c0c3c81f-4e29-495b-ab2b-e1d97e6e442d",
-      "Pan"
-    ],
-    [
-      "314cbc86-fcd1-4a7f-a183-f8afb719e0b8",
-      "Send"
-    ],
-    [
-      "8a6fa50f-425a-481d-926c-437edf9380b2",
-      "Main Mix"
-    ],
-    [
       "f8b5cd99-5289-4771-acd9-e37698eefb16",
       "Inputs"
-    ],
-    [
-      "932feda2-710a-4894-b943-37dbe0c193d3",
-      "Channel Power"
     ],
     [
       "6a58bca2-97a3-443a-827f-6d27f99c79d6",
@@ -697,36 +669,12 @@
       "Headphone"
     ],
     [
-      "27c3fcd9-5f6d-4271-a7b6-feec18dcde38",
-      "Fader"
+      "a05199cc-8720-434a-8cee-06adcbb81d6b",
+      "Channel Power"
     ],
     [
-      "16e913e7-17a4-4352-8574-3ad25c822c3f",
-      "Fader1"
-    ],
-    [
-      "afbffc69-b100-46db-9180-c5285a610f62",
-      "Gain1"
-    ],
-    [
-      "1134652d-8354-4f6a-9b2f-dc88b7881384",
-      "Inputs1"
-    ],
-    [
-      "63151d98-ae0a-469c-944a-54e511d723e3",
-      "Main Mix1"
-    ],
-    [
-      "ec4e71c2-26db-4ba4-aad5-0bfc40b10850",
-      "Mute1"
-    ],
-    [
-      "cea36016-c788-4767-8a0d-1508f3be4f70",
-      "Pan1"
-    ],
-    [
-      "458d1d42-567e-4cb2-9f3d-b6971582f7d3",
-      "Send1"
+      "bf0c8cb1-25e4-4e00-bf63-ef4d73b2cc6a",
+      "6.3mm_Out"
     ]
   ],
   "text_variables": {},
