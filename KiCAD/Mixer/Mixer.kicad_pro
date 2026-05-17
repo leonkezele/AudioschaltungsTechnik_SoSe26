@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -141,7 +157,7 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.0,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
@@ -638,6 +654,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -650,7 +674,7 @@
         "uuid": "322d427a-6aae-4762-92d6-d97688daf29b"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR6-8,#PWR35-41,#PWR52,#PWR54,C2,C5,C14,C16-17",
+    "used_designators": "U4,RV2-3",
     "variants": []
   },
   "sheets": [
@@ -728,7 +752,7 @@
     ],
     [
       "1134652d-8354-4f6a-9b2f-dc88b7881384",
-      "Inputs1"
+      "InputsL"
     ],
     [
       "ec4e71c2-26db-4ba4-aad5-0bfc40b10850",

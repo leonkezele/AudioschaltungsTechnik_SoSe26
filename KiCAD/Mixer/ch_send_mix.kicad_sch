@@ -277,161 +277,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1014,42 +859,6 @@
 		(uuid "0cb97039-83c5-4fca-a4ec-4607a412b82d")
 	)
 	(junction
-		(at 110.49 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10bf5815-d0f7-426e-bd0a-3edd932cace3")
-	)
-	(junction
-		(at 91.44 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1270e8db-b7b7-4d7f-b98d-656254d1830b")
-	)
-	(junction
-		(at 110.49 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1277fd6e-21f5-4b3c-8b64-d8bdebc52594")
-	)
-	(junction
-		(at 80.01 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1393e931-8b0f-4e54-ba7e-77b3c3340692")
-	)
-	(junction
-		(at 110.49 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "192ef8a1-39d9-4e02-84eb-c9910a00278b")
-	)
-	(junction
-		(at 66.04 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "196af2bc-0bac-49a5-b06a-9f0fb09204ef")
-	)
-	(junction
 		(at 92.71 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1060,18 +869,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25234a5e-9857-4d4e-958e-9e1da655a0ed")
-	)
-	(junction
-		(at 110.49 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25ec3402-dff9-44dc-96b1-b8eeeb48af19")
-	)
-	(junction
-		(at 48.26 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3023d998-cb21-42ec-a69d-10251f52d004")
 	)
 	(junction
 		(at 55.88 99.06)
@@ -1092,16 +889,16 @@
 		(uuid "41c28db6-7097-4868-87e1-5c48ccf6b8ba")
 	)
 	(junction
-		(at 58.42 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4446acd8-8e3f-4479-a2b3-1f0c8076ea66")
-	)
-	(junction
 		(at 80.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e366129-3550-4a2a-be4c-86d8cacef2b0")
+	)
+	(junction
+		(at 110.49 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d44a09-9502-4112-b971-b2ff2bfe4578")
 	)
 	(junction
 		(at 60.96 147.32)
@@ -1110,28 +907,10 @@
 		(uuid "54bef6b8-1767-4ae1-b0ca-d3b4f432cd23")
 	)
 	(junction
-		(at 67.31 19.05)
+		(at 110.49 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "57a5becb-a0f5-40ac-b6a3-3b89eb947cc1")
-	)
-	(junction
-		(at 76.2 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58086c9c-21e5-45cd-b2ee-39aaae44eac4")
-	)
-	(junction
-		(at 91.44 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c36f00c-84de-4041-aaf8-2ef2a2d252e3")
-	)
-	(junction
-		(at 48.26 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c5c5319-5f39-4b0b-9e27-523d1d678c6e")
+		(uuid "5f36636c-9d8a-4d93-8d15-97968f67091a")
 	)
 	(junction
 		(at 55.88 139.7)
@@ -1158,6 +937,12 @@
 		(uuid "96495210-5a3b-474f-9eee-523dc9119486")
 	)
 	(junction
+		(at 25.4 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97a15d96-fd16-4068-91eb-c7f8d8bc3caf")
+	)
+	(junction
 		(at 92.71 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1182,24 +967,6 @@
 		(uuid "a2820d26-4d1e-4c51-9d90-2707e0e6d4e6")
 	)
 	(junction
-		(at 81.28 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a28fa450-0cd4-47d9-8660-d7b7549c1d90")
-	)
-	(junction
-		(at 76.2 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad6ae997-49e1-4db2-bfe5-8e09b61995ac")
-	)
-	(junction
-		(at 58.42 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aecc4e84-94a3-4e2e-969b-d093042a198c")
-	)
-	(junction
 		(at 55.88 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1218,28 +985,10 @@
 		(uuid "c0977ed2-5f0b-4406-b8c0-01ae114e72f2")
 	)
 	(junction
-		(at 43.18 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5f3bebe-2910-4bb0-82ca-9f0b257a680d")
-	)
-	(junction
 		(at 59.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9351cc7-16e6-49a5-9882-7a8ad55eacc6")
-	)
-	(junction
-		(at 25.4 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c97fdb70-0762-4dd4-aba8-9c99a48dacb2")
-	)
-	(junction
-		(at 43.18 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd9018d1-c0e7-4d3a-9c89-c2365974ac1b")
 	)
 	(junction
 		(at 55.88 154.94)
@@ -1252,6 +1001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2501606-9f48-40d7-bb38-3328288a8419")
+	)
+	(junction
+		(at 110.49 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e1023b-b384-460c-abae-6f128ed8d0d9")
 	)
 	(junction
 		(at 93.98 88.9)
@@ -1271,6 +1026,20 @@
 		(color 0 0 0 0)
 		(uuid "fb5b3431-ca1f-4107-ba0e-06032fdd3cde")
 	)
+	(junction
+		(at 110.49 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc27ecc2-0ce6-4d13-b633-b9fa83298a23")
+	)
+	(no_connect
+		(at 24.13 19.05)
+		(uuid "6861277a-efc8-4a82-8ce7-a6d2c0d7a472")
+	)
+	(no_connect
+		(at 24.13 22.86)
+		(uuid "ba88d7da-c373-4983-a6be-630d1309f521")
+	)
 	(wire
 		(pts
 			(xy 97.79 167.64) (xy 92.71 167.64)
@@ -1280,16 +1049,6 @@
 			(type default)
 		)
 		(uuid "006c33b0-267d-4925-abee-191b0880fd34")
-	)
-	(wire
-		(pts
-			(xy 48.26 19.05) (xy 67.31 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e944df-acd3-4946-875a-39dd23087e8a")
 	)
 	(wire
 		(pts
@@ -1363,16 +1122,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 160.02) (xy 92.71 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ec65ab-d321-4399-bbb8-82332982cc01")
-	)
-	(wire
-		(pts
 			(xy 52.07 105.41) (xy 55.88 105.41)
 		)
 		(stroke
@@ -1420,16 +1169,6 @@
 			(type default)
 		)
 		(uuid "1f0e28c5-cb3b-4efe-a8b4-9beb05f46ad9")
-	)
-	(wire
-		(pts
-			(xy 27.94 22.86) (xy 27.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e56707-8ee3-44d8-9317-9ae3eaf6a2fd")
 	)
 	(wire
 		(pts
@@ -1493,6 +1232,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3448f74b-8ac7-4891-aa26-803e9f777345")
+	)
+	(wire
+		(pts
+			(xy 123.19 157.48) (xy 127 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347dec0a-7b14-43c4-9a29-3fe92213d04c")
+	)
+	(wire
+		(pts
 			(xy 73.66 83.82) (xy 80.01 83.82)
 		)
 		(stroke
@@ -1523,26 +1282,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 19.05) (xy 99.06 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d122aa0-13c3-4829-acf6-78667fa257fc")
-	)
-	(wire
-		(pts
-			(xy 80.01 34.29) (xy 91.44 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d965ce0-6eb3-4c7b-8d44-5db48ea9ba34")
-	)
-	(wire
-		(pts
 			(xy 40.64 151.13) (xy 48.26 151.13)
 		)
 		(stroke
@@ -1550,16 +1289,6 @@
 			(type default)
 		)
 		(uuid "3e60c0c2-14d1-4dac-9086-1446374369d2")
-	)
-	(wire
-		(pts
-			(xy 24.13 19.05) (xy 48.26 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb83430-3c45-4ba4-b5e0-c871de94b9e9")
 	)
 	(wire
 		(pts
@@ -1580,26 +1309,6 @@
 			(type default)
 		)
 		(uuid "4156a751-fed8-4749-85b1-9f482fef37db")
-	)
-	(wire
-		(pts
-			(xy 48.26 34.29) (xy 80.01 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a919ae-1b73-4ed6-bedb-1d63a80c61aa")
-	)
-	(wire
-		(pts
-			(xy 67.31 19.05) (xy 81.28 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45561109-0f66-4fef-9d05-4fb7eaa40731")
 	)
 	(wire
 		(pts
@@ -1673,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 157.48) (xy 111.76 157.48)
+			(xy 110.49 157.48) (xy 115.57 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1690,6 +1399,16 @@
 			(type default)
 		)
 		(uuid "61e8629f-115b-46af-906c-6d24d9876e9a")
+	)
+	(wire
+		(pts
+			(xy 25.4 26.67) (xy 25.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66049e79-383c-4696-8de9-f8312af0cba2")
 	)
 	(wire
 		(pts
@@ -1833,6 +1552,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 160.02) (xy 92.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b49f1f-f814-4aae-af9b-29bc7e1097aa")
+	)
+	(wire
+		(pts
 			(xy 110.49 63.5) (xy 110.49 74.93)
 		)
 		(stroke
@@ -1893,6 +1622,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 130.81) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f271495-5db7-45e5-bf3f-3ca5307fab6c")
+	)
+	(wire
+		(pts
 			(xy 109.22 157.48) (xy 110.49 157.48)
 		)
 		(stroke
@@ -1943,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 111.76 101.6)
+			(xy 110.49 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1993,16 +1732,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 22.86) (xy 27.94 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb9900d-5604-4cac-bec1-56f9300ff6ee")
-	)
-	(wire
-		(pts
 			(xy 80.01 83.82) (xy 80.01 72.39)
 		)
 		(stroke
@@ -2043,16 +1772,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 39.37) (xy 25.4 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7994d52-85fe-463a-a6d1-03da819820fb")
-	)
-	(wire
-		(pts
 			(xy 62.23 157.48) (xy 60.96 157.48)
 		)
 		(stroke
@@ -2063,13 +1782,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 26.67) (xy 25.4 39.37)
+			(xy 123.19 74.93) (xy 127 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bafa0b48-cc48-42b1-a02c-6f60f772bbb1")
+		(uuid "b852c700-4bf9-48fb-b0b2-fa31e3f4754d")
 	)
 	(wire
 		(pts
@@ -2203,16 +1922,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 19.05) (xy 91.44 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd6e5ba-f935-4016-ad71-2bea68cbbf2a")
-	)
-	(wire
-		(pts
 			(xy 55.88 71.12) (xy 55.88 74.93)
 		)
 		(stroke
@@ -2273,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 130.81) (xy 111.76 130.81)
+			(xy 110.49 130.81) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2290,16 +1999,6 @@
 			(type default)
 		)
 		(uuid "dc2972ff-4954-4357-8fca-b5a3515f3924")
-	)
-	(wire
-		(pts
-			(xy 27.94 34.29) (xy 48.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca16200-1a3b-4dd9-9917-adce48ca1fb6")
 	)
 	(wire
 		(pts
@@ -2423,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 74.93) (xy 111.76 74.93)
+			(xy 110.49 74.93) (xy 115.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2201,7 @@
 		(uuid "ff69ddc4-b5bf-4e64-8358-2d9b860e4dc1")
 	)
 	(label "GND"
-		(at 25.4 41.91 270)
+		(at 25.4 29.21 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2510,86 +2209,6 @@
 			(justify right bottom)
 		)
 		(uuid "28cb474c-f571-4351-8079-582f97e1a36c")
-	)
-	(label "GND"
-		(at 48.26 41.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cd73dce-d442-4020-b85c-c10c740f9bfe")
-	)
-	(label "GND"
-		(at 66.04 41.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47d00658-dc3c-4772-8a00-05a26c552366")
-	)
-	(label "GND"
-		(at 91.44 41.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "581e4451-f93c-43e7-87e6-1567689bab39")
-	)
-	(label "GND"
-		(at 81.28 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b4522a9-c226-44f5-9eed-585d83d67abc")
-	)
-	(label "GND"
-		(at 99.06 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75a589b4-01ea-48f8-ba36-0fcc06b9ece5")
-	)
-	(label "GND"
-		(at 48.26 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "806b01f2-418a-45e1-bf33-e1e083c3725f")
-	)
-	(label "GND"
-		(at 80.01 41.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec855345-2a60-4da7-9a53-b46a063677ff")
-	)
-	(label "GND"
-		(at 67.31 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f36cdebf-692c-4346-aa13-750ee40a34bb")
 	)
 	(hierarchical_label "send_inL1"
 		(shape input)
@@ -2692,7 +2311,7 @@
 	)
 	(hierarchical_label "send_out1L"
 		(shape input)
-		(at 111.76 74.93 0)
+		(at 127 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2714,7 +2333,7 @@
 	)
 	(hierarchical_label "send_out2R"
 		(shape input)
-		(at 111.76 157.48 0)
+		(at 127 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2725,7 +2344,7 @@
 	)
 	(hierarchical_label "send_out1R"
 		(shape input)
-		(at 111.76 101.6 0)
+		(at 127 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2747,7 +2366,7 @@
 	)
 	(hierarchical_label "send_out2L"
 		(shape input)
-		(at 111.76 130.81 0)
+		(at 127 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2801,87 +2420,8 @@
 		(uuid "fa96cda6-9e36-47f2-a5a3-4476647e6b7a")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 67.31 22.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01449c55-986c-47ea-9075-34ca2a7f3a5d")
-		(property "Reference" "C11"
-			(at 62.738 22.606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 62.23 24.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 66.3448 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ff384d3-586b-4e73-8b96-b17a4925c3c2")
-		)
-		(pin "2"
-			(uuid "68a9924e-1302-4db0-b19c-4f08e4ebd8da")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 25.4 39.37 270)
+		(at 25.4 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2891,8 +2431,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e59fb0-733a-4e26-9d33-d4902bf22dde")
-		(property "Reference" "#PWR054"
-			(at 19.05 39.37 0)
+		(property "Reference" "#PWR014"
+			(at 31.75 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +2443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 39.37 90)
+			(at 29.21 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2914,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 39.37 0)
+			(at 25.4 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +2465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 39.37 0)
+			(at 25.4 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 39.37 0)
+			(at 25.4 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,7 +2492,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR054")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "045dcb9a-dc19-4214-bcc2-6651a26d9538")
-		(property "Reference" "R40"
+		(property "Reference" "R22"
 			(at 52.07 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +2571,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R40")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3048,7 +2588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0661af1e-6b59-4a9e-86be-a219579eaf20")
-		(property "Reference" "R47"
+		(property "Reference" "R33"
 			(at 101.6 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3110,7 +2650,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3128,7 +2668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d44a629-4036-4be5-a9de-23ae33b1ea36")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR018"
 			(at 60.96 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -3188,15 +2728,15 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR069")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 22.86 180)
+		(lib_id "Device:R")
+		(at 119.38 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3204,9 +2744,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "17a29b73-ca7a-4acd-a650-0e36482e10d3")
-		(property "Reference" "C7"
-			(at 46.99 24.892 0)
+		(uuid "1cd1c769-4453-45be-95bc-584999585ca0")
+		(property "Reference" "R36"
+			(at 118.872 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3215,8 +2755,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 45.974 26.67 0)
+		(property "Value" "0R"
+			(at 118.872 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3225,8 +2765,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 47.2948 19.05 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 119.38 99.822 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 22.86 0)
+			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,8 +2787,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 22.86 0)
+		(property "Description" "Resistor"
+			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,57 +2797,55 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "4a277a8b-f004-4642-bc0f-73df0e4b6ff3")
 		)
 		(pin "2"
-			(uuid "e005d3ce-6f52-48f6-9f97-846413d815fc")
+			(uuid "7414b6de-61c8-49de-8941-5f385ec2d98a")
+		)
+		(pin "1"
+			(uuid "f22934e6-8008-47bd-91d2-5a321d7dcf21")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C7")
+					(reference "R36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 45.72 26.67 0)
-		(unit 3)
+		(lib_id "Device:R")
+		(at 119.38 130.81 270)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "221e1e83-3e0b-4bff-a3ee-d4e804605275")
-		(property "Reference" "U3"
-			(at 41.91 27.9401 0)
+		(uuid "35398eb5-557f-4f26-871e-1e15411c913b")
+		(property "Reference" "R37"
+			(at 118.872 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "NE5532"
-			(at 41.91 25.4001 0)
+		(property "Value" "0R"
+			(at 118.872 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 45.72 26.67 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 119.38 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3317,8 +2855,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 45.72 26.67 0)
+		(property "Datasheet" ""
+			(at 119.38 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3328,8 +2866,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 45.72 26.67 0)
+		(property "Description" "Resistor"
+			(at 119.38 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3338,36 +2876,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c94")
-		)
-		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a4e")
-		)
-		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513a5")
 		)
 		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26ab")
+			(uuid "d900235c-c7be-4679-9558-f99523b41747")
 		)
-		(pin "4"
-			(uuid "dff3437e-d4be-43f5-8b50-2e840d08aaa2")
-		)
-		(pin "8"
-			(uuid "a4e0aa9b-3dfe-4f3a-b96a-f76f1c832e2f")
-		)
-		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f1c")
-		)
-		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e869")
+		(pin "1"
+			(uuid "0ca7d21e-e609-473d-89f4-5672771e55b3")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U3")
-					(unit 3)
+					(reference "R37")
+					(unit 1)
 				)
 			)
 		)
@@ -3384,7 +2904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "386ca9b8-bac6-43e6-9e12-5c3791c85fbb")
-		(property "Reference" "RV11"
+		(property "Reference" "RV7"
 			(at 52.07 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3405,7 +2925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3514,15 +3034,15 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV11")
+					(reference "RV7")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 38.1 180)
+		(lib_id "Device:R")
+		(at 119.38 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3530,9 +3050,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3b4bca6d-fe66-493f-9ec1-292b3cf902de")
-		(property "Reference" "C13"
-			(at 46.228 40.386 0)
+		(uuid "3bc2d682-d799-412a-98c6-6d8303ce1273")
+		(property "Reference" "R38"
+			(at 118.872 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3541,8 +3061,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 45.72 42.164 0)
+		(property "Value" "0R"
+			(at 118.872 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3551,8 +3071,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 47.2948 34.29 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 119.38 155.702 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 38.1 0)
+			(at 119.38 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,8 +3093,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 38.1 0)
+		(property "Description" "Resistor"
+			(at 119.38 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,96 +3103,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "02cc1b4c-5930-4a86-b343-1ea4bf33df40")
 		)
 		(pin "2"
-			(uuid "4a8d350b-7780-4eb3-a4db-b33a6be2682a")
+			(uuid "5ae6c760-083f-499d-ac70-f83554aad5bb")
+		)
+		(pin "1"
+			(uuid "bd03de5c-a036-41bb-a326-130c6f355604")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 22.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e7eafba-ce79-4f9f-b683-06981f18a408")
-		(property "Reference" "C12"
-			(at 94.488 22.606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 93.98 24.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 98.0948 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7df38923-c375-4df6-9126-7015d7152a61")
-		)
-		(pin "2"
-			(uuid "05c7c73a-e4f1-4819-8299-d4b1351d3d1a")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C12")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f43de37-52f3-4cc2-bea9-18a0b21473ce")
-		(property "Reference" "RV11"
+		(property "Reference" "RV7"
 			(at 52.07 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3818,7 +3259,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV11")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -3826,39 +3267,39 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 93.98 26.67 0)
-		(unit 3)
+		(at 101.6 74.93 0)
+		(mirror x)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "42b562fc-a429-44df-9e9d-dd23ae963cde")
-		(property "Reference" "U8"
-			(at 90.17 27.9401 0)
+		(fields_autoplaced yes)
+		(uuid "49a2adcf-4180-471f-b1c4-a0d074d77094")
+		(property "Reference" "U9"
+			(at 101.6 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "NE5532"
-			(at 90.17 25.4001 0)
+			(at 101.6 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 93.98 26.67 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +3310,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 93.98 26.67 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3880,7 +3321,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 93.98 26.67 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,42 +3331,43 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c97")
-		)
 		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a51")
+			(uuid "78502726-46c0-45ac-8e38-86ccb145dd84")
 		)
 		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513a6")
+			(uuid "639e1f7d-275b-42b4-96c7-60b1bd536623")
 		)
 		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26ae")
-		)
-		(pin "4"
-			(uuid "e1a35df6-ade8-4403-ba5d-f6dc3314aacd")
-		)
-		(pin "8"
-			(uuid "7b74cf81-0136-4374-aca9-80eb2c64d12f")
+			(uuid "8cd8a03f-f79c-4328-bc58-f928a40c6ae9")
 		)
 		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f1d")
+			(uuid "6e81a392-d084-4d41-bf24-efa5b0080ea4")
+		)
+		(pin "3"
+			(uuid "30a19d73-451e-496a-8850-d418de706097")
 		)
 		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e86a")
+			(uuid "c1c0f545-f40e-4d08-baa5-3e2777d86ba5")
+		)
+		(pin "4"
+			(uuid "d34cde32-7c10-42c4-85f9-98acfe25665f")
+		)
+		(pin "8"
+			(uuid "e02f6950-16e6-423b-8ded-93a34d062783")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U8")
-					(unit 3)
+					(reference "U9")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 22.86 180)
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 101.6 130.81 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3933,9 +3375,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57d2863c-2724-41f2-a129-784db9109cbb")
-		(property "Reference" "C8"
-			(at 80.01 24.892 0)
+		(fields_autoplaced yes)
+		(uuid "51e69d78-af6a-4ed8-b8fa-9481bb55bc08")
+		(property "Reference" "U11"
+			(at 101.6 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3944,8 +3387,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 78.994 26.67 0)
+		(property "Value" "NE5532"
+			(at 101.6 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3954,8 +3397,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 80.3148 19.05 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 101.6 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,8 +3408,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 81.28 22.86 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 101.6 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,8 +3419,106 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 22.86 0)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 101.6 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "71c14358-9deb-4a25-9bcd-5c6359d259bd")
+		)
+		(pin "7"
+			(uuid "6f7c8081-2e53-45ed-b9ee-1b2f60a8a9e1")
+		)
+		(pin "3"
+			(uuid "b659f265-0edb-45dc-b5db-7ec78e7c12ed")
+		)
+		(pin "2"
+			(uuid "18b2aea0-ee20-4a90-9a96-b79b5cd1ef50")
+		)
+		(pin "1"
+			(uuid "35a5e5aa-c211-4382-9820-bcf745d796e1")
+		)
+		(pin "5"
+			(uuid "7ee6ed1e-2e96-414b-8c20-fe5f27c599f1")
+		)
+		(pin "4"
+			(uuid "3ab4e5c5-cff5-436e-ba1e-796ed703d597")
+		)
+		(pin "8"
+			(uuid "84f4650f-f3e8-430d-b7ea-7601be656398")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 101.6 101.6 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53400d69-de32-4a0a-8a40-f07cf6d29cae")
+		(property "Reference" "U9"
+			(at 101.6 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 101.6 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,16 +3529,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "a25fa572-2d37-4072-b1bb-84126a5a0d2e")
+			(uuid "78502726-46c0-45ac-8e38-86ccb145dd85")
+		)
+		(pin "5"
+			(uuid "639e1f7d-275b-42b4-96c7-60b1bd536624")
 		)
 		(pin "2"
-			(uuid "726d119b-39e7-4c21-918f-5a08623fa1f0")
+			(uuid "8cd8a03f-f79c-4328-bc58-f928a40c6aea")
+		)
+		(pin "7"
+			(uuid "6e81a392-d084-4d41-bf24-efa5b0080ea5")
+		)
+		(pin "3"
+			(uuid "30a19d73-451e-496a-8850-d418de706098")
+		)
+		(pin "6"
+			(uuid "c1c0f545-f40e-4d08-baa5-3e2777d86ba6")
+		)
+		(pin "4"
+			(uuid "d34cde32-7c10-42c4-85f9-98acfe256660")
+		)
+		(pin "8"
+			(uuid "e02f6950-16e6-423b-8ded-93a34d062784")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C8")
-					(unit 1)
+					(reference "U9")
+					(unit 2)
 				)
 			)
 		)
@@ -4014,7 +3573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9c217c-a782-4792-ad5d-a023d59535e3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR015"
 			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4074,7 +3633,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR051")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4091,7 +3650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f047175-2e78-4c1f-8c7c-71814b3b68bd")
-		(property "Reference" "R43"
+		(property "Reference" "R19"
 			(at 52.07 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +3713,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R43")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4171,7 +3730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "638d22ab-070d-434b-bb93-f554be6b8ad9")
-		(property "Reference" "RV10"
+		(property "Reference" "RV6"
 			(at 52.07 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +3750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +3859,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV10")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -4317,7 +3876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68a21794-7cb0-443f-8f09-f9183e76f5e3")
-		(property "Reference" "RV4"
+		(property "Reference" "RV5"
 			(at 52.07 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4446,16 +4005,15 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV4")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 101.6 130.81 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 119.38 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4463,9 +4021,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6eb25cc3-c03e-4184-a37d-4cf430c32e05")
-		(property "Reference" "U8"
-			(at 101.6 138.684 0)
+		(uuid "73e630ec-59e7-4651-bc28-fea25aefa3d3")
+		(property "Reference" "R35"
+			(at 118.872 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4474,8 +4032,8 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
-			(at 101.6 136.144 0)
+		(property "Value" "0R"
+			(at 118.872 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4484,8 +4042,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 101.6 130.81 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 119.38 73.152 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,8 +4053,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 101.6 130.81 0)
+		(property "Datasheet" ""
+			(at 119.38 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,8 +4064,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 101.6 130.81 0)
+		(property "Description" "Resistor"
+			(at 119.38 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,134 +4074,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "fce6a1b0-ac57-4a8d-9754-ba2c795d75e4")
-		)
-		(pin "1"
-			(uuid "2dc59b07-35d4-4306-9033-9fd54197c376")
-		)
-		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513a7")
 		)
 		(pin "2"
-			(uuid "2e099a4f-fb63-48b3-91c5-50c7e526eebc")
+			(uuid "0cfd2938-ff6f-4a90-8c25-e98b0b081df9")
 		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a411739")
-		)
-		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae32")
-		)
-		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f1e")
-		)
-		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e86b")
+		(pin "1"
+			(uuid "b13fbad0-3802-47a8-95b2-37fda8cb52a3")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U8")
+					(reference "R35")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 69.85 160.02 0)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73c9f090-c8b8-42c0-91e2-dd8d76fec741")
-		(property "Reference" "U7"
-			(at 70.358 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 70.358 154.178 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 69.85 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 69.85 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 69.85 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c95")
-		)
-		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a4f")
-		)
-		(pin "5"
-			(uuid "490cdcb3-653b-4f7b-a983-e22cb40bbe56")
-		)
-		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26ac")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a411737")
-		)
-		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae30")
-		)
-		(pin "7"
-			(uuid "c313bcda-3ee8-4862-8245-eef6225807c5")
-		)
-		(pin "6"
-			(uuid "b18ced21-f3d5-4364-8a0e-8ce276ec5b6e")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U7")
-					(unit 2)
 				)
 			)
 		)
@@ -4659,7 +4101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81528245-89c9-4f55-96eb-9155fb732f13")
-		(property "Reference" "R39"
+		(property "Reference" "R20"
 			(at 52.07 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4163,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R39")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4739,7 +4181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83604e25-40c3-44c5-b27e-4d1c735a69c0")
-		(property "Reference" "RV12"
+		(property "Reference" "RV8"
 			(at 52.07 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4869,7 +4311,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV12")
+					(reference "RV8")
 					(unit 2)
 				)
 			)
@@ -4886,7 +4328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "849533e6-d292-420a-9478-4e2f40dbb718")
-		(property "Reference" "R46"
+		(property "Reference" "R29"
 			(at 87.63 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +4390,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R46")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4965,9 +4407,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "88f64052-12a8-4b6f-bc7d-fe3322b80955")
-		(property "Reference" "U3"
-			(at 69.088 95.758 0)
+		(fields_autoplaced yes)
+		(uuid "8562718a-0c14-4ea4-a5b6-000660d3a8a2")
+		(property "Reference" "U8"
+			(at 68.58 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4977,7 +4420,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 69.088 98.298 0)
+			(at 68.58 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,34 +4462,34 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c96")
-		)
 		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a50")
-		)
-		(pin "5"
-			(uuid "95b7e839-8f38-455c-a407-e5421d08c245")
-		)
-		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26ad")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a411738")
-		)
-		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae31")
-		)
-		(pin "7"
-			(uuid "13d522b3-bd25-4180-8a71-12b59fc0a936")
+			(uuid "0b4ea9b6-4ca0-4f15-87b8-4b5903112600")
 		)
 		(pin "6"
-			(uuid "4396df31-7342-4afa-a8cb-7b0af1de9fc6")
+			(uuid "31f7cfc6-3f94-4e0c-81cb-1e86987e2439")
+		)
+		(pin "3"
+			(uuid "4d3e0bc1-ad2b-4215-a429-109703eb2e14")
+		)
+		(pin "4"
+			(uuid "4946cea9-94c8-4aa8-bc46-dcb86b076f4f")
+		)
+		(pin "7"
+			(uuid "99670334-59d8-4145-bb53-06dd3c26490f")
+		)
+		(pin "5"
+			(uuid "4bcfbfed-2631-43a0-b310-42e0b9035d4f")
+		)
+		(pin "2"
+			(uuid "4d7370a2-cf4d-4f80-92b3-c949cc72aee4")
+		)
+		(pin "8"
+			(uuid "551cc60b-495f-44b4-bdaa-b1aa4b868131")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U3")
+					(reference "U8")
 					(unit 2)
 				)
 			)
@@ -5063,7 +4506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89a8c49d-e62d-4570-a84f-81ffaaf4be9d")
-		(property "Reference" "R51"
+		(property "Reference" "R32"
 			(at 101.6 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,105 +4568,8 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R51")
+					(reference "R32")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 101.6 157.48 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8c96987d-03ef-4b25-82f1-6e1ce48ce04e")
-		(property "Reference" "U8"
-			(at 103.886 164.338 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 103.886 161.798 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 101.6 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 101.6 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 101.6 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c98")
-		)
-		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a52")
-		)
-		(pin "5"
-			(uuid "6ec6129f-d37c-457d-9503-8a114c9b81dc")
-		)
-		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26af")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a41173a")
-		)
-		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae33")
-		)
-		(pin "7"
-			(uuid "73ee1860-622e-4c80-842f-248a96d3864e")
-		)
-		(pin "6"
-			(uuid "7511dfb4-9a9a-4b41-a38b-73bd0f9065b3")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U8")
-					(unit 2)
 				)
 			)
 		)
@@ -5239,7 +4585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "906ffeab-ada5-4c62-bef1-c8497c087d28")
-		(property "Reference" "R44"
+		(property "Reference" "R21"
 			(at 52.07 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5302,104 +4648,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 69.85 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91f3e0e0-554a-4b7d-af67-42f42d3d1d82")
-		(property "Reference" "U7"
-			(at 69.85 120.396 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 69.85 122.936 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 69.85 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 69.85 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 69.85 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f6a31743-a462-4918-bce8-46d4be8ae6ed")
-		)
-		(pin "1"
-			(uuid "c6e3177e-6606-4a36-94a8-0af30ce78730")
-		)
-		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513a8")
-		)
-		(pin "2"
-			(uuid "575d11cb-6a1e-4736-b14d-f32be314a0b2")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a41173b")
-		)
-		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae34")
-		)
-		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f1f")
-		)
-		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e86c")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U7")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5417,7 +4666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b3eedf-b8cf-443c-bfb2-c44f3cce972f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR019"
 			(at 87.63 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5478,7 +4727,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR052")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5574,7 +4823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a18255dd-0838-45c7-9307-d62665377b39")
-		(property "Reference" "R52"
+		(property "Reference" "R31"
 			(at 100.33 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5636,7 +4885,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R52")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5653,7 +4902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a882c9cb-cb23-4ae9-afb0-bb049852f1fd")
-		(property "Reference" "R48"
+		(property "Reference" "R34"
 			(at 101.6 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,107 +4964,8 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R48")
+					(reference "R34")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 78.74 26.67 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "acf8ac1b-e78e-445b-a22b-158de073f280")
-		(property "Reference" "U6"
-			(at 74.93 27.9401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 74.93 25.4001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 78.74 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 78.74 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 78.74 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c99")
-		)
-		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a53")
-		)
-		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513a9")
-		)
-		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26b0")
-		)
-		(pin "4"
-			(uuid "59537c98-28ca-4887-836d-d065dc00b272")
-		)
-		(pin "8"
-			(uuid "259a09eb-4829-489b-a412-7c620a4fb7da")
-		)
-		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f20")
-		)
-		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e86d")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U6")
-					(unit 3)
 				)
 			)
 		)
@@ -5831,7 +4981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af18076a-b2b8-45fd-8cce-3df4e9c83042")
-		(property "Reference" "R45"
+		(property "Reference" "R30"
 			(at 87.63 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5893,7 +5043,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R45")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5979,85 +5129,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 91.44 38.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b436b6c8-715e-4ea9-a368-724b001e39cc")
-		(property "Reference" "C14"
-			(at 86.868 37.846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 86.36 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 90.4748 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c5efb47-6409-4c36-baa0-ad10e0208f7c")
-		)
-		(pin "2"
-			(uuid "d2886129-6385-4ac1-9440-5c68c80e3f35")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
 		(at 52.07 101.6 90)
 		(mirror x)
@@ -6069,7 +5140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b55c2673-c89b-4968-a253-97a981026919")
-		(property "Reference" "RV4"
+		(property "Reference" "RV5"
 			(at 52.07 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,7 +5161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6199,15 +5270,15 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV4")
+					(reference "RV5")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 66.04 38.1 180)
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 68.58 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6215,9 +5286,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bef39650-e2b4-42fd-a608-c624015b359e")
-		(property "Reference" "C15"
-			(at 64.262 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "b6e236fd-ec00-40ab-8bee-e47bf255ac26")
+		(property "Reference" "U8"
+			(at 68.58 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6226,8 +5298,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 63.5 42.164 0)
+		(property "Value" "NE5532"
+			(at 68.58 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6236,8 +5308,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 65.0748 34.29 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 68.58 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,8 +5319,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 38.1 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 68.58 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6258,8 +5330,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 38.1 0)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 68.58 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,15 +5342,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ce802cf-2aae-40a8-9c21-c1d8b38dbb0e")
+			(uuid "0b4ea9b6-4ca0-4f15-87b8-4b5903112601")
+		)
+		(pin "6"
+			(uuid "31f7cfc6-3f94-4e0c-81cb-1e86987e243a")
+		)
+		(pin "3"
+			(uuid "4d3e0bc1-ad2b-4215-a429-109703eb2e15")
+		)
+		(pin "4"
+			(uuid "4946cea9-94c8-4aa8-bc46-dcb86b076f50")
+		)
+		(pin "7"
+			(uuid "99670334-59d8-4145-bb53-06dd3c264910")
+		)
+		(pin "5"
+			(uuid "4bcfbfed-2631-43a0-b310-42e0b9035d50")
 		)
 		(pin "2"
-			(uuid "eae78267-5240-4a4b-a611-4d94d9f7d3a3")
+			(uuid "4d7370a2-cf4d-4f80-92b3-c949cc72aee5")
+		)
+		(pin "8"
+			(uuid "551cc60b-495f-44b4-bdaa-b1aa4b868132")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C15")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6296,7 +5386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c03de8cc-306d-446a-b7ab-04acf95db85f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR016"
 			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6356,7 +5446,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR053")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6373,7 +5463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caaf5557-66f9-4e72-8c0b-236a9194e035")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 69.85 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,86 +5525,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 80.01 38.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb3b7435-95dd-4948-b081-5995d287451c")
-		(property "Reference" "C16"
-			(at 75.438 37.846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 74.93 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 79.0448 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 80.01 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e1c94a0-154c-4bb0-ab28-c2a918565b47")
-		)
-		(pin "2"
-			(uuid "63d11c0a-9901-467e-a92f-e76e6a5ee085")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "C16")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6531,7 +5542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc5c162d-4419-4e86-afbb-76348fa15510")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 69.85 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6593,107 +5604,8 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 60.96 26.67 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd84fe44-1f97-43ed-8f0d-c7b42a0a7226")
-		(property "Reference" "U7"
-			(at 57.15 27.9401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 57.15 25.4001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 60.96 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 60.96 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 60.96 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c9a")
-		)
-		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a54")
-		)
-		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513aa")
-		)
-		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26b1")
-		)
-		(pin "4"
-			(uuid "c0783916-1f42-44fe-9fa3-79091e437db5")
-		)
-		(pin "8"
-			(uuid "324be8ca-d240-4a99-b27d-fac707bdbe1e")
-		)
-		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f21")
-		)
-		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e86e")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U7")
-					(unit 3)
 				)
 			)
 		)
@@ -6710,7 +5622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea48bab-38f9-472f-a3a9-a319632fa7e5")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR020"
 			(at 87.63 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +5683,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR093")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6789,7 +5701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d176f587-0d16-4908-9c9c-e4d937d7448e")
-		(property "Reference" "RV10"
+		(property "Reference" "RV6"
 			(at 52.07 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6919,7 +5831,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV10")
+					(reference "RV6")
 					(unit 2)
 				)
 			)
@@ -6937,7 +5849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d292d6dd-a9b3-452b-b7bc-b702ef644cf8")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR017"
 			(at 60.96 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +5909,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "#PWR070")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7005,7 +5917,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 101.6 101.6 0)
+		(at 69.85 160.02 0)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7013,9 +5926,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dbad571b-820a-4103-9867-68b288c70915")
-		(property "Reference" "U6"
-			(at 103.378 108.966 0)
+		(fields_autoplaced yes)
+		(uuid "db189763-af34-4f64-b40e-cb7994afa885")
+		(property "Reference" "U10"
+			(at 69.85 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7025,7 +5939,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 103.378 106.426 0)
+			(at 69.85 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7035,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 101.6 101.6 0)
+			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 101.6 101.6 0)
+			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +5971,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 101.6 101.6 0)
+			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7067,34 +5981,34 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "500d73bc-3692-4d25-96e3-9d73076e6c9b")
-		)
-		(pin "1"
-			(uuid "9e8f2058-a478-4126-a43d-ede653314a55")
-		)
 		(pin "5"
-			(uuid "180bb557-bb6e-455a-b474-c922db945916")
+			(uuid "8a960c4a-5db9-42d5-af15-881588f493e5")
 		)
-		(pin "2"
-			(uuid "bbef5a10-46ed-4d82-ab50-800258ac26b2")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a41173c")
+		(pin "3"
+			(uuid "1476f17b-06ef-4d00-a593-973a1cba7311")
 		)
 		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae35")
+			(uuid "f0799eec-dad7-40bb-b228-61a8b2649bfe")
+		)
+		(pin "1"
+			(uuid "36278030-e311-4a38-bf0e-08e122938c43")
 		)
 		(pin "7"
-			(uuid "08c41c35-051e-4765-bbc9-f990ed03194e")
+			(uuid "f80e7b3d-d44d-4f6e-8607-5a3d0836688b")
+		)
+		(pin "4"
+			(uuid "c2d5796a-df02-4c4b-9f8e-8efe276dfa2e")
+		)
+		(pin "2"
+			(uuid "683796f2-51ab-41ed-ab7c-48f94363528f")
 		)
 		(pin "6"
-			(uuid "b91f9594-24f0-448a-87da-b03a75119b0a")
+			(uuid "fc6a1806-7783-4d3f-9b27-4e0bcb6c2ce9")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U6")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -7102,7 +6016,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 68.58 72.39 0)
+		(at 69.85 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7110,9 +6024,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "de81389e-d75b-4e34-ab46-b244acd23637")
-		(property "Reference" "U3"
-			(at 68.58 77.47 0)
+		(fields_autoplaced yes)
+		(uuid "db8499a6-2918-4df3-ac6b-b583da9b62d9")
+		(property "Reference" "U10"
+			(at 69.85 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7122,7 +6037,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 68.58 80.01 0)
+			(at 69.85 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7132,7 +6047,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 68.58 72.39 0)
+			(at 69.85 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,7 +6058,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 68.58 72.39 0)
+			(at 69.85 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7154,7 +6069,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 68.58 72.39 0)
+			(at 69.85 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,132 +6079,34 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "62dab666-4335-40d3-b6d0-ab9153cb9ab4")
-		)
-		(pin "1"
-			(uuid "c520f57b-9c76-4b8e-aafd-0d7cee7a534d")
-		)
 		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513ab")
+			(uuid "8a960c4a-5db9-42d5-af15-881588f493e6")
 		)
-		(pin "2"
-			(uuid "70e649f4-11b0-46f9-af0f-c27a61e2bf44")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a41173d")
+		(pin "3"
+			(uuid "1476f17b-06ef-4d00-a593-973a1cba7312")
 		)
 		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae36")
+			(uuid "f0799eec-dad7-40bb-b228-61a8b2649bff")
+		)
+		(pin "1"
+			(uuid "36278030-e311-4a38-bf0e-08e122938c44")
 		)
 		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f22")
+			(uuid "f80e7b3d-d44d-4f6e-8607-5a3d0836688c")
+		)
+		(pin "4"
+			(uuid "c2d5796a-df02-4c4b-9f8e-8efe276dfa2f")
+		)
+		(pin "2"
+			(uuid "683796f2-51ab-41ed-ab7c-48f943635290")
 		)
 		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e86f")
+			(uuid "fc6a1806-7783-4d3f-9b27-4e0bcb6c2cea")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 101.6 74.93 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec4b168d-9952-4c30-809e-8dbf646a552f")
-		(property "Reference" "U6"
-			(at 101.6 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 101.6 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 101.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 101.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 101.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "84a6a8f3-a3bf-4b24-8f30-516887a384e2")
-		)
-		(pin "1"
-			(uuid "cc37e5e4-bd19-45a7-ae1e-7279303b2387")
-		)
-		(pin "5"
-			(uuid "02b83609-8bd5-47c8-9b52-233b7ca513ac")
-		)
-		(pin "2"
-			(uuid "ab28ec68-99fd-4f71-b5ba-7f4ac9a846c7")
-		)
-		(pin "4"
-			(uuid "67f99253-38b8-4297-9d2c-a9303a41173e")
-		)
-		(pin "8"
-			(uuid "29c83067-77eb-425d-838c-59615389ae37")
-		)
-		(pin "7"
-			(uuid "cc3ba8da-9e2f-46f3-ae0a-09ce71347f23")
-		)
-		(pin "6"
-			(uuid "f6a1fc85-0f1d-48de-8c3d-58563376e870")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "U6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -7306,7 +6123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edf7d617-34f0-4c98-b436-eb14c6d66688")
-		(property "Reference" "RV12"
+		(property "Reference" "RV8"
 			(at 52.07 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,7 +6143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical"
 			(at 52.07 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +6252,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "RV12")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -7452,7 +6269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f60a678f-ca72-40bf-93c7-67e5a7d293e2")
-		(property "Reference" "R50"
+		(property "Reference" "R27"
 			(at 87.63 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,8 +6331,106 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R50")
+					(reference "R27")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 101.6 157.48 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc2cf3ca-dc00-4b68-a5c1-085d27b0b6ba")
+		(property "Reference" "U11"
+			(at 101.6 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 101.6 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 101.6 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 101.6 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 101.6 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "71c14358-9deb-4a25-9bcd-5c6359d259be")
+		)
+		(pin "7"
+			(uuid "6f7c8081-2e53-45ed-b9ee-1b2f60a8a9e2")
+		)
+		(pin "3"
+			(uuid "b659f265-0edb-45dc-b5db-7ec78e7c12ee")
+		)
+		(pin "2"
+			(uuid "18b2aea0-ee20-4a90-9a96-b79b5cd1ef51")
+		)
+		(pin "1"
+			(uuid "35a5e5aa-c211-4382-9820-bcf745d796e2")
+		)
+		(pin "5"
+			(uuid "7ee6ed1e-2e96-414b-8c20-fe5f27c599f2")
+		)
+		(pin "4"
+			(uuid "3ab4e5c5-cff5-436e-ba1e-796ed703d598")
+		)
+		(pin "8"
+			(uuid "84f4650f-f3e8-430d-b7ea-7601be656399")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
+					(reference "U11")
+					(unit 2)
 				)
 			)
 		)
@@ -7531,7 +6446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd1ae1fa-bb73-43d5-8bf3-26e444ccbd63")
-		(property "Reference" "R49"
+		(property "Reference" "R28"
 			(at 87.63 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +6508,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/521df6ec-35bd-4de2-8e8a-dfa124c60ecf"
-					(reference "R49")
+					(reference "R28")
 					(unit 1)
 				)
 			)

@@ -5,6 +5,278 @@
 	(uuid "d6f2e1bf-bf3d-483f-ad73-43f5a8474335")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:NE5532"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NE5532"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NE5532_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NE5532_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NE5532_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -395,6 +667,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -555,6 +982,171 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -739,6 +1331,139 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 80.01 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0073f737-2695-47b0-b4a6-7c4344ec89bb")
+	)
+	(junction
+		(at 59.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030ba748-be49-4f87-81e4-d2d812ec09c6")
+	)
+	(junction
+		(at 142.24 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d5d016-172c-4f98-86c7-d76e4f99a55c")
 	)
 	(junction
 		(at 74.93 57.15)
@@ -753,10 +1478,124 @@
 		(uuid "0812e5e4-45ea-40fd-b714-b25599ef3166")
 	)
 	(junction
+		(at 175.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14bcd83c-72f2-4ee3-861a-b54294999dc6")
+	)
+	(junction
+		(at 80.01 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16cd13dc-d23c-429d-ad03-6a677e455bcd")
+	)
+	(junction
+		(at 44.45 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250fbdef-849b-48da-ae15-15d9e20da4ac")
+	)
+	(junction
+		(at 36.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28dfa141-2146-446b-a8f6-14393d95ae53")
+	)
+	(junction
+		(at 64.77 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f53372a-bb64-4964-a045-a858f7f73ba1")
+	)
+	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b4cdf88-be1e-44ed-b46e-5670d37958ca")
+	)
+	(junction
+		(at 125.73 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0a3947-752f-407e-9bb2-c7d099e3dfd8")
+	)
+	(junction
+		(at 59.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4573cedd-2c11-4d77-975b-7c4803561027")
+	)
+	(junction
+		(at 137.16 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45e4a594-4d61-4691-850c-ec876549e188")
+	)
+	(junction
 		(at 62.23 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4afffcdd-7d34-42f0-b49a-7e184a0e1867")
+	)
+	(junction
+		(at 74.93 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5083b2cc-c68a-427b-b684-65640a2cef6a")
+	)
+	(junction
+		(at 49.53 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "557ceac5-8e16-4227-a48b-c978760bfa3b")
+	)
+	(junction
+		(at 175.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5857e3e0-a1f5-40a6-a8d1-2d8805495e26")
+	)
+	(junction
+		(at 120.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "746187f0-d366-4e06-8256-583d73f8011c")
+	)
+	(junction
+		(at 125.73 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74cc453f-033c-4a54-a931-c49b80d9e6e7")
+	)
+	(junction
+		(at 49.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e65e0c9-d40c-47ce-a80c-fb115f3def09")
+	)
+	(junction
+		(at 153.67 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c09cf4d-3931-402a-af1f-7b33db148ea7")
+	)
+	(junction
+		(at 120.65 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e9a494e-cc94-40dd-8973-679a210e330a")
+	)
+	(junction
+		(at 36.83 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e958d2-bf2e-497a-adbd-cccc3eb2447a")
+	)
+	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a36929f6-bedb-429a-87f9-ac4cc941d427")
 	)
 	(junction
 		(at 62.23 57.15)
@@ -765,16 +1604,100 @@
 		(uuid "a5c4e879-d349-4be4-8823-59064ed249ce")
 	)
 	(junction
+		(at 110.49 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c1553f-49f2-420e-9981-45704fb9249d")
+	)
+	(junction
+		(at 170.18 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c218b3-be22-4622-a8b3-72b8ab5fcd21")
+	)
+	(junction
+		(at 153.67 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "affac903-7ece-4f17-9755-df00da3e8950")
+	)
+	(junction
 		(at 68.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8ba29c8-aa8c-48d8-85bb-f74d8175c7cc")
 	)
 	(junction
+		(at 74.93 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba96f043-6752-473f-9f9c-e83d37897cd6")
+	)
+	(junction
+		(at 185.42 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be684b21-4866-4680-bb9e-e996e1283b70")
+	)
+	(junction
+		(at 137.16 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf0ed3a2-bff1-489d-8452-fe38caef6b26")
+	)
+	(junction
+		(at 185.42 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfeed12d-cbd0-4e2e-8b85-fdfe0bcd8048")
+	)
+	(junction
+		(at 170.18 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a23018-d985-4844-975a-41039f9d6265")
+	)
+	(junction
+		(at 62.23 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d47353c5-9467-4c9c-ba8d-412ee74500f3")
+	)
+	(junction
+		(at 105.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4cf7a90-e324-4b6c-9189-ecf843027329")
+	)
+	(junction
+		(at 62.23 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6675566-3412-46c4-be1a-e382025a285a")
+	)
+	(junction
 		(at 55.88 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddd110d7-67f0-49d2-bb30-c517d0101688")
+	)
+	(junction
+		(at 64.77 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7cc3f5a-0f79-4644-93a9-5120be384446")
+	)
+	(junction
+		(at 142.24 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6825141-bd5d-4dc7-8dcc-79d4e579aae9")
+	)
+	(junction
+		(at 44.45 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0e7da1-0beb-4468-9eb3-e6444c736761")
 	)
 	(wire
 		(pts
@@ -785,6 +1708,26 @@
 			(type default)
 		)
 		(uuid "04ff07ea-f38f-45eb-be60-846df88e9e7a")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0520681e-e233-48b1-8c79-6ac453d5ac81")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb1e2c5-8eb3-4295-9749-856300c066aa")
 	)
 	(wire
 		(pts
@@ -808,6 +1751,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c11030-840f-4101-b3ed-08fcc803ec92")
+	)
+	(wire
+		(pts
 			(xy 62.23 57.15) (xy 49.53 57.15)
 		)
 		(stroke
@@ -815,16 +1768,6 @@
 			(type default)
 		)
 		(uuid "1429d131-46a9-4221-b994-37c609820723")
-	)
-	(wire
-		(pts
-			(xy 62.23 25.4) (xy 62.23 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181b2e83-db0c-40eb-818a-3b9b309d65cc")
 	)
 	(wire
 		(pts
@@ -838,13 +1781,63 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 55.88 48.26)
+			(xy 80.01 105.41) (xy 105.41 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2668d192-28b6-49d5-8d8e-9a90a99d9334")
+		(uuid "1c1cb8ec-a04d-4c75-b671-3b2746a47b03")
+	)
+	(wire
+		(pts
+			(xy 185.42 90.17) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213910db-c48b-4015-9945-29e37346ec61")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 64.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d77da77-ae7d-45d9-b5ad-87a822ce7d56")
+	)
+	(wire
+		(pts
+			(xy 31.75 90.17) (xy 36.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3055c8fe-b829-4194-b6a2-16df6a06b2b5")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3344a8a3-58d2-4dae-a2a6-52afa6d25a1c")
+	)
+	(wire
+		(pts
+			(xy 44.45 105.41) (xy 49.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339e3381-1524-4285-a425-45f03c9ae4df")
 	)
 	(wire
 		(pts
@@ -858,6 +1851,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 48.26) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367144eb-c8d2-475a-b0ed-4cc9704a4201")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc7728c-cc43-4f5a-8859-862e0c53aa85")
+	)
+	(wire
+		(pts
 			(xy 55.88 48.26) (xy 55.88 50.8)
 		)
 		(stroke
@@ -868,13 +1881,33 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 62.23 68.58)
+			(xy 44.45 90.17) (xy 49.53 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "491fe79e-d5b6-4525-a3f1-34dd6946f0bb")
+		(uuid "418d364f-7f4a-4a2e-8ab1-ed9064084602")
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3b08fa-f982-4fb2-b50f-d1f290522b0b")
+	)
+	(wire
+		(pts
+			(xy 62.23 27.94) (xy 62.23 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a88c9e1-0da6-4779-89a7-9fcc7a4672f6")
 	)
 	(wire
 		(pts
@@ -888,6 +1921,76 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64307463-6e2e-4252-89aa-8786b2976623")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674f9009-7d78-4fb2-9e30-ee9a9a0ffd3e")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 36.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb7e7e1-7d3d-4b95-a345-074c1c4e9c57")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737290d4-fe64-44d9-a9bb-55e609a018bb")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cc3dda-dab3-4110-91e6-c538d1ed58f8")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bc0dba-fb76-490d-b694-ab37222ffd51")
+	)
+	(wire
+		(pts
+			(xy 62.23 76.2) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816aacf8-2198-4d8e-973f-282020dd4b48")
+	)
+	(wire
+		(pts
 			(xy 49.53 35.56) (xy 62.23 35.56)
 		)
 		(stroke
@@ -898,13 +2001,63 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 48.26) (xy 55.88 48.26)
+			(xy 59.69 105.41) (xy 64.77 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86232804-ea0a-4b3a-8524-6391bb45bd2e")
+		(uuid "855e9ace-36c0-4adf-b0c4-33b81798ffd1")
+	)
+	(wire
+		(pts
+			(xy 64.77 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fc0c72-1add-46cc-9d90-a2e372e4ab88")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883f969d-9877-41cd-b708-9c6a2741211d")
+	)
+	(wire
+		(pts
+			(xy 49.53 99.06) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3cfb6c-26aa-4928-91f0-d544ee7eb961")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcea6e0-0cad-4d95-b9d4-8c83bcfc9a1d")
+	)
+	(wire
+		(pts
+			(xy 36.83 90.17) (xy 44.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb5e338-70ab-4a3a-9e07-b597c8d1f505")
 	)
 	(wire
 		(pts
@@ -918,6 +2071,86 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90400da7-d606-4629-babe-8a0299538846")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91af4d60-170e-4546-9d95-33ff920598f7")
+	)
+	(wire
+		(pts
+			(xy 64.77 105.41) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982fde85-81f9-44ef-a3b9-e98f3306feb9")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09efc57-7328-4718-8bb8-7f254566ccf0")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2547efd-6c95-40a2-aaad-883ab0a337ad")
+	)
+	(wire
+		(pts
+			(xy 59.69 19.05) (xy 62.23 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64265ef-d7ac-4b41-94bb-78a20c296281")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c4a0e2-b487-4d4d-a0b1-01c5022610d2")
+	)
+	(wire
+		(pts
+			(xy 185.42 105.41) (xy 191.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f0288d-2ce8-4b71-b7d8-8b98716659fd")
+	)
+	(wire
+		(pts
 			(xy 49.53 57.15) (xy 49.53 53.34)
 		)
 		(stroke
@@ -925,6 +2158,36 @@
 			(type default)
 		)
 		(uuid "aa996e51-1adb-4c02-982d-0f8f0252f7e8")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 59.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7c2ae8-ef89-4f34-b519-ffe4e3467e91")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220f289-1faf-4c11-b66b-6b12f47f0e68")
+	)
+	(wire
+		(pts
+			(xy 36.83 97.79) (xy 36.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6017878-e19d-4484-8b33-a0b8fd5102c8")
 	)
 	(wire
 		(pts
@@ -938,6 +2201,36 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 20.32) (xy 62.23 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc00874d-e62a-47f2-ae39-37888ce2eda6")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 125.73 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2afcdb8-89f6-493e-9a04-4574caaae64a")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3934756-7512-48bd-abef-5e23d3bcab31")
+	)
+	(wire
+		(pts
 			(xy 62.23 35.56) (xy 74.93 35.56)
 		)
 		(stroke
@@ -945,6 +2238,26 @@
 			(type default)
 		)
 		(uuid "cbd56751-212d-40e1-984d-1cadf88070a3")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fd39e8-cc65-4dfe-b9fe-4a56990517fe")
+	)
+	(wire
+		(pts
+			(xy 62.23 19.05) (xy 62.23 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da25f2b9-0169-458e-9533-4c3a9362ad72")
 	)
 	(wire
 		(pts
@@ -978,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 90.17) (xy 175.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dcbcdc-41c3-49b5-aae1-afe97d1de6c7")
+	)
+	(wire
+		(pts
 			(xy 49.53 43.18) (xy 55.88 43.18)
 		)
 		(stroke
@@ -985,6 +2308,16 @@
 			(type default)
 		)
 		(uuid "eae21a4c-61ed-4cec-8502-4aff9f41c0e4")
+	)
+	(wire
+		(pts
+			(xy 137.16 90.17) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb276b04-292d-4423-821a-bb5671295aab")
 	)
 	(wire
 		(pts
@@ -1006,6 +2339,26 @@
 		)
 		(uuid "f0fd4b07-a23a-4417-beac-4ae5ae7df99a")
 	)
+	(wire
+		(pts
+			(xy 36.83 105.41) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d1c89c-c0a9-44e4-93ca-1dc2a1558444")
+	)
+	(wire
+		(pts
+			(xy 62.23 77.47) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa84e582-9be8-469e-a57e-d9819e57a46f")
+	)
 	(label "GND"
 		(at 73.66 48.26 0)
 		(effects
@@ -1015,6 +2368,26 @@
 			(justify left bottom)
 		)
 		(uuid "02f4b4d8-93cf-4285-9848-bd88419040c0")
+	)
+	(label "GND"
+		(at 64.77 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "114dad12-7f28-47bc-8322-ab1b972f4bd5")
+	)
+	(label "GND"
+		(at 49.53 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15869b6f-4f19-4f1d-a003-5a64f93de59a")
 	)
 	(label "GND"
 		(at 105.41 35.56 0)
@@ -1027,6 +2400,56 @@
 		(uuid "1c6d460d-cb77-4d20-818f-dc37eb0f9fd8")
 	)
 	(label "GND"
+		(at 36.83 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2eaeb53c-fef2-4ffe-bafa-230e71adb148")
+	)
+	(label "GND"
+		(at 110.49 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47de936c-1771-46a2-a7ac-e1666e53e8da")
+	)
+	(label "GND"
+		(at 64.77 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62e10115-0320-419f-91b8-c612f8b7ad99")
+	)
+	(label "-12v"
+		(at 59.69 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66a33288-64da-44f5-ab75-694644350185")
+	)
+	(label "+12v"
+		(at 59.69 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75567dcf-3954-4f26-9701-ebda2a75ac17")
+	)
+	(label "GND"
 		(at 74.93 30.48 0)
 		(effects
 			(font
@@ -1035,6 +2458,76 @@
 			(justify left bottom)
 		)
 		(uuid "7ace7f74-9533-458e-9f3e-1c16cac034f1")
+	)
+	(label "GND"
+		(at 80.01 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a97d614-66bf-47a4-9864-69238524c1c7")
+	)
+	(label "+12v"
+		(at 31.75 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9336ec3f-1b07-4a90-b227-08c8464f1efc")
+	)
+	(label "GND"
+		(at 80.01 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e916975-d9b8-4d84-8b7c-e5c9036117fd")
+	)
+	(label "-12v"
+		(at 31.75 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a180ab8f-a446-45d5-859b-14104756c5fd")
+	)
+	(label "GND"
+		(at 36.83 99.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b95a3d5d-bbd9-4c53-9b6b-5d4a3ff6cfbe")
+	)
+	(label "GND"
+		(at 110.49 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc7cdb92-afe8-46a9-85c8-9d3b0c4720ff")
+	)
+	(label "GND"
+		(at 49.53 99.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea26b18d-f3b4-4a54-9dbb-542c2c1a2c8f")
 	)
 	(label "GND"
 		(at 48.26 48.26 180)
@@ -1069,7 +2562,7 @@
 	)
 	(hierarchical_label "-12V"
 		(shape output)
-		(at 62.23 68.58 270)
+		(at 62.23 77.47 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1080,7 +2573,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape output)
-		(at 62.23 25.4 90)
+		(at 62.23 17.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1088,6 +2581,342 @@
 			(justify left)
 		)
 		(uuid "d87c36df-5cbc-4ad1-81d9-f156f8e41ac8")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "189054c4-efbe-4a6f-89dc-5585f8bfaf3f")
+		(property "Reference" "C14"
+			(at 127.508 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 128.27 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 126.6952 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69d4c72d-a898-4afb-8522-695df0bfafcd")
+		)
+		(pin "2"
+			(uuid "1bdc406f-0fa0-41b2-a138-d0ca7e8c93cb")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 107.95 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20871594-7dbb-417d-bcdb-6e9fe3bc864e")
+		(property "Reference" "U6"
+			(at 102.108 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 102.108 98.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01625c0c-fa13-4cc2-8caf-3621e4f07065")
+		)
+		(pin "2"
+			(uuid "63ebb3ee-149a-4501-8a7e-b7f12017151d")
+		)
+		(pin "4"
+			(uuid "430b0e9e-4ce6-4889-9e84-87a69f474e99")
+		)
+		(pin "5"
+			(uuid "7aad0e54-20e2-4733-86cf-07122ab0f25f")
+		)
+		(pin "6"
+			(uuid "632457a8-8a95-49d8-b66d-164dd0eedfc6")
+		)
+		(pin "7"
+			(uuid "2d73eaba-f066-4273-8fdb-1f9cd236ac32")
+		)
+		(pin "3"
+			(uuid "2aca1e96-2452-4064-a31f-bb79b8250321")
+		)
+		(pin "8"
+			(uuid "191a1245-eebf-4830-b851-fd9a486d4948")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c4ca483-c99f-4038-8ece-3e739483e4c2")
+		(property "Reference" "#PWR07"
+			(at 125.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9ff1b77-fc73-412c-92a2-77d51386d94c")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c608ddc-6190-413f-9f00-c65bc9bb0002")
+		(property "Reference" "C2"
+			(at 35.052 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 34.544 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 35.8648 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cf38174-9a66-4852-8422-27c5ac95400b")
+		)
+		(pin "2"
+			(uuid "e2f5100e-dc54-452b-a168-14922da27dc4")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
@@ -1101,7 +2930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4183171e-0a84-4272-b34a-754900965a4a")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 77.47 32.2961 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1123,7 +2952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "2917_Tantal_Elko:CAPPM7343X310N"
 			(at 74.93 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -1165,8 +2994,108 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 172.72 97.79 0)
+		(mirror x)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4275fc0c-cb10-43cd-a270-2bffa3f5a9c8")
+		(property "Reference" "U10"
+			(at 168.91 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 170.18 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 172.72 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 172.72 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 172.72 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "8a960c4a-5db9-42d5-af15-881588f493e5")
+		)
+		(pin "3"
+			(uuid "1476f17b-06ef-4d00-a593-973a1cba7311")
+		)
+		(pin "8"
+			(uuid "e08353ed-5c0e-44f0-a791-28b63ec14e73")
+		)
+		(pin "1"
+			(uuid "36278030-e311-4a38-bf0e-08e122938c43")
+		)
+		(pin "7"
+			(uuid "f80e7b3d-d44d-4f6e-8607-5a3d0836688b")
+		)
+		(pin "4"
+			(uuid "0014e33a-91c4-4f35-b2c5-b8ac0fe6232a")
+		)
+		(pin "2"
+			(uuid "683796f2-51ab-41ed-ab7c-48f94363528f")
+		)
+		(pin "6"
+			(uuid "fc6a1806-7783-4d3f-9b27-4e0bcb6c2ce9")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U10")
+					(unit 3)
 				)
 			)
 		)
@@ -1205,7 +3134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 57.785 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1249,6 +3178,738 @@
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
 					(reference "D3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b55f425-d8fd-4cd2-941f-0cb59666d991")
+		(property "Reference" "C6"
+			(at 66.294 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 67.31 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 63.8048 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b6e97cd-024b-4856-a475-a12ef1726c85")
+		)
+		(pin "2"
+			(uuid "f86c4269-fe03-49b5-af79-b9234dd51bb5")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ddb0016-9ceb-4ed3-88a3-6a99b4d44958")
+		(property "Reference" "C7"
+			(at 81.28 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.55 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 79.0448 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40d10735-2029-45e2-8146-748db049e981")
+		)
+		(pin "2"
+			(uuid "ed347f98-95b2-4e04-bd04-fe0f96c8c8cd")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e94481-1a31-490b-9c5c-9182363188c6")
+		(property "Reference" "#PWR031"
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9dd7b10-f203-4e04-a05c-d5a5e0c61569")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54fa45a1-177d-421d-a7f3-c5c74fae3cf4")
+		(property "Reference" "C28"
+			(at 193.802 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.31 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 192.7352 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36d94183-3864-4ae0-a092-b2cda3bf839a")
+		)
+		(pin "2"
+			(uuid "7b1e4b64-01fa-472d-a60e-f95590b3e716")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b20e490-796c-440d-94a4-086832d38a6c")
+		(property "Reference" "C5"
+			(at 66.294 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 67.056 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 63.8048 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa16bc2f-aba1-4070-84ed-cfeea5c7bedb")
+		)
+		(pin "2"
+			(uuid "a21b31b2-fa3e-438d-a84c-602ac8a4cabc")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c483843-c277-4df6-b079-18ac985f7199")
+		(property "Reference" "#PWR010"
+			(at 142.24 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5971681d-61e6-4da6-9d81-1ffb59a1484f")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "600c703a-2499-45b4-9df8-e566508c8b8c")
+		(property "Reference" "#PWR032"
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06697b4e-a783-4da8-901d-c216084f63d1")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66327d24-2993-48ff-a180-9081d4ebf3a1")
+		(property "Reference" "C1"
+			(at 35.052 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 34.544 98.044 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 35.8648 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59ac6664-12bc-49ec-8874-754ac94ee8a4")
+		)
+		(pin "2"
+			(uuid "95643ac5-7b07-4153-82f6-bdf618a6ed0e")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 46.99 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e36189a-0ba2-4156-8921-92507ee5f48f")
+		(property "Reference" "U2"
+			(at 40.894 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 39.37 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9bd6619-ac6c-4da3-8f81-380664556f3c")
+		)
+		(pin "2"
+			(uuid "f8016790-12e6-4c58-97a3-9abb773a0a24")
+		)
+		(pin "5"
+			(uuid "98ef8daf-18b8-48c3-8e40-8c898edd57e3")
+		)
+		(pin "7"
+			(uuid "871300e6-0570-4460-86a0-33b85d57b10d")
+		)
+		(pin "6"
+			(uuid "ea906c75-9579-4fef-8deb-4be031cbef4c")
+		)
+		(pin "8"
+			(uuid "b129ab63-11f6-4f54-8f38-af0e32bf4a9a")
+		)
+		(pin "4"
+			(uuid "ae360506-4f3e-4d96-9790-918406cbc558")
+		)
+		(pin "3"
+			(uuid "fdc36f6f-0f59-47a3-9a52-c39eeea06a50")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -1359,6 +4020,264 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 62.23 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8683ab46-7a75-416b-bd49-1b339a3ea4c5")
+		(property "Reference" "U3"
+			(at 56.642 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 55.372 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 62.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 62.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 62.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3bee9cae-697c-49f6-b018-df1894290d63")
+		)
+		(pin "5"
+			(uuid "ebc4e237-201d-4a8a-a7da-d5709b4cf362")
+		)
+		(pin "7"
+			(uuid "984efba2-dc24-4d27-8a7c-efa5b2d7275f")
+		)
+		(pin "3"
+			(uuid "592dd5ed-a2eb-4723-a2d5-d41f2733b96c")
+		)
+		(pin "1"
+			(uuid "76a847ed-fd5b-4dd0-a90c-5b8a2e6e9167")
+		)
+		(pin "2"
+			(uuid "af281c46-93ae-465b-91f7-566fbeea20cc")
+		)
+		(pin "4"
+			(uuid "ceaa3edf-f08d-4cce-a61b-399fe8a6ff2a")
+		)
+		(pin "8"
+			(uuid "4ef3ed00-da93-4a88-8da6-e69ffdc9e58b")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89109ac7-d437-41b0-9385-0d2ceae7a87c")
+		(property "Reference" "C4"
+			(at 50.8 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 51.816 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 48.5648 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd5d53c-21c1-408d-94fa-054d15bdcff1")
+		)
+		(pin "2"
+			(uuid "9d0131a0-3117-4311-91fe-37682e10d012")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dc694e9-f805-49bb-9238-429d0a0eac76")
+		(property "Reference" "C26"
+			(at 177.292 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.8 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 176.2252 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8a2e4eb-488a-486a-9983-5a6f08d660ec")
+		)
+		(pin "2"
+			(uuid "c25a8221-8965-4421-a439-2d65bdad111f")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 74.93 59.69 0)
 		(mirror x)
@@ -1370,7 +4289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90fc394e-90c8-4999-90a8-c8e72aa093c2")
-		(property "Reference" "C5"
+		(property "Reference" "C20"
 			(at 77.47 61.5061 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1392,7 +4311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "2917_Tantal_Elko:CAPPM7343X310N"
 			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1434,7 +4353,1639 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C5")
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 156.21 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "949d6e4e-1679-4a58-ab31-e0602dac3c97")
+		(property "Reference" "U9"
+			(at 150.368 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 148.59 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78502726-46c0-45ac-8e38-86ccb145dd84")
+		)
+		(pin "5"
+			(uuid "639e1f7d-275b-42b4-96c7-60b1bd536623")
+		)
+		(pin "2"
+			(uuid "8cd8a03f-f79c-4328-bc58-f928a40c6ae9")
+		)
+		(pin "7"
+			(uuid "6e81a392-d084-4d41-bf24-efa5b0080ea4")
+		)
+		(pin "3"
+			(uuid "30a19d73-451e-496a-8850-d418de706097")
+		)
+		(pin "6"
+			(uuid "c1c0f545-f40e-4d08-baa5-3e2777d86ba5")
+		)
+		(pin "4"
+			(uuid "54baae1b-5963-4193-8286-599c33a0b9be")
+		)
+		(pin "8"
+			(uuid "e1158a15-2491-4388-9d18-f0e253f4c64c")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99e89855-cef1-4f99-8c34-f9fbfc33b646")
+		(property "Reference" "C8"
+			(at 81.28 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.296 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 79.0448 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f31f1d73-7e97-4cf7-b10d-c2d9b22cceda")
+		)
+		(pin "2"
+			(uuid "bb0a74da-2a12-4425-94c9-3383b5126ecd")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c26231f-4350-46fa-a81c-80ec1febd94d")
+		(property "Reference" "#PWR08"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80d0bf81-1fb2-467b-9b22-6d21c93a5de8")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e867d07-5f03-4601-89a2-993ab766adc6")
+		(property "Reference" "#PWR030"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afb55881-68c6-4b0f-a36e-70f3279d687c")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 34.29 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4d94bbb-a4bb-4f54-a6db-1a064272f58d")
+		(property "Reference" "U1"
+			(at 30.48 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 30.48 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 34.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 34.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 34.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34755aeb-c597-40d4-b582-2a686f0cef1e")
+		)
+		(pin "3"
+			(uuid "3ce75adc-6695-4c57-b407-bfea290571af")
+		)
+		(pin "5"
+			(uuid "539682b1-bf3f-4184-afa2-643855bcee9b")
+		)
+		(pin "7"
+			(uuid "e635a403-efa3-4b2b-8a1a-474e474fe7bc")
+		)
+		(pin "1"
+			(uuid "08b7b6f2-cc29-4b38-ab13-2c179995c730")
+		)
+		(pin "8"
+			(uuid "eda6edb9-7be9-4fab-a947-b5e81324587d")
+		)
+		(pin "4"
+			(uuid "1ca7a842-30c8-4d21-ba89-4e1ac571b492")
+		)
+		(pin "6"
+			(uuid "079be776-86bb-43fa-956c-b57797679c30")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 139.7 97.79 0)
+		(mirror x)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab1c7871-d0f4-4ece-b912-1be053b491f4")
+		(property "Reference" "U8"
+			(at 136.144 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 137.668 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b4ea9b6-4ca0-4f15-87b8-4b5903112600")
+		)
+		(pin "6"
+			(uuid "31f7cfc6-3f94-4e0c-81cb-1e86987e2439")
+		)
+		(pin "3"
+			(uuid "4d3e0bc1-ad2b-4215-a429-109703eb2e14")
+		)
+		(pin "4"
+			(uuid "efc07c5c-cb0f-405e-9aec-8498254670aa")
+		)
+		(pin "7"
+			(uuid "99670334-59d8-4145-bb53-06dd3c26490f")
+		)
+		(pin "5"
+			(uuid "4bcfbfed-2631-43a0-b310-42e0b9035d4f")
+		)
+		(pin "2"
+			(uuid "4d7370a2-cf4d-4f80-92b3-c949cc72aee4")
+		)
+		(pin "8"
+			(uuid "7507539c-ab55-4751-bb45-6b5dbb834b10")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad6f3fd5-7a40-408b-a8f5-698ff1060fd3")
+		(property "Reference" "C27"
+			(at 193.802 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.056 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 190.8048 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9e62547-66d0-4526-b68a-e8805b9737dd")
+		)
+		(pin "2"
+			(uuid "f009100c-1d76-447d-b54e-b64c5cf4a9d9")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0a25391-f9be-4869-87a1-53e6f5270ce7")
+		(property "Reference" "C13"
+			(at 127.508 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 128.016 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 124.7648 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b0bcbc7-bcf1-4d28-8dce-992c69fb9ca0")
+		)
+		(pin "2"
+			(uuid "708223e4-cde0-4ef8-a51e-1add02730bb2")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 62.23 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b40e5ae2-233e-4c6a-8c09-c5ddea86be6c")
+		(property "Reference" "FB2"
+			(at 66.04 69.7992 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 66.04 72.3392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 60.452 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 62.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94da8b1b-5dd6-4073-8863-3a1fcf682f1b")
+		)
+		(pin "2"
+			(uuid "1dc5f6a0-de03-4922-b1af-5e06ac6a48e9")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5742555-56d4-450f-9c12-77c60b1b8716")
+		(property "Reference" "C16"
+			(at 144.018 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.526 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 143.2052 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a085d3ab-eeba-434c-8ad5-da3cbbc11e3d")
+		)
+		(pin "2"
+			(uuid "2fff327c-9514-454d-9905-1ded9d6eacde")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 62.23 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5990aad-33ed-4079-8495-d35728996f09")
+		(property "Reference" "FB1"
+			(at 66.04 22.8092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 66.04 25.3492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 60.452 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 62.23 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc342d7c-0da0-4701-9737-6eb9e2092f4e")
+		)
+		(pin "2"
+			(uuid "ac08dda9-1314-45b2-b0c5-669c7e356eb5")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 123.19 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8f87874-0f44-4836-84d1-28cca3a98df5")
+		(property "Reference" "U7"
+			(at 116.586 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 114.808 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 123.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 123.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 123.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2627599d-7b67-4bec-88b2-e3d162c93f79")
+		)
+		(pin "5"
+			(uuid "16a24253-f43d-44b6-aa6b-e1440416df39")
+		)
+		(pin "7"
+			(uuid "4038e96e-56be-442a-8b9d-50e964a8d698")
+		)
+		(pin "3"
+			(uuid "d00155b8-ff09-4643-bbae-3635d9c888e5")
+		)
+		(pin "4"
+			(uuid "0c9d1a58-0da4-4dfa-8381-a305331d685a")
+		)
+		(pin "8"
+			(uuid "ba88b44d-9003-4741-b8f6-efac32f4eb81")
+		)
+		(pin "1"
+			(uuid "57797b00-9f4d-40dd-9efa-d2a421330dc1")
+		)
+		(pin "2"
+			(uuid "f8e79cbc-afec-4bbf-8396-8dfa1b591378")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6376d2c-7c2d-4d86-a87c-92eb4949f981")
+		(property "Reference" "C25"
+			(at 177.038 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.292 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 174.2948 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72b19336-6a25-41ae-a54f-ba58e4cedd46")
+		)
+		(pin "2"
+			(uuid "68330fda-c011-4097-b9d3-d171cb92425a")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbfa0d0e-fdeb-4928-ae94-870a72c8283d")
+		(property "Reference" "C3"
+			(at 51.054 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 52.07 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 48.5648 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0833e50c-a868-4055-ab48-70a1f115e794")
+		)
+		(pin "2"
+			(uuid "146b3a3a-3d5a-4c9c-9708-d959e8bb6c06")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbec3f90-7db2-42db-a9dc-1f833d3e0ff3")
+		(property "Reference" "#PWR029"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "316ca98a-3144-44be-9867-38c6804c56a6")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e38848ba-c8af-4ee7-989d-2d7d287a06c0")
+		(property "Reference" "C11"
+			(at 112.268 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 112.776 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 109.5248 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fd278ed-38b6-4779-b22c-109418ee80bd")
+		)
+		(pin "2"
+			(uuid "9c0010b2-ac20-4e0f-b2d8-c86db360be08")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 187.96 97.79 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4a2cb91-e0ea-4086-b6af-547b92726a77")
+		(property "Reference" "U11"
+			(at 182.372 97.282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 181.356 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "71c14358-9deb-4a25-9bcd-5c6359d259bd")
+		)
+		(pin "7"
+			(uuid "6f7c8081-2e53-45ed-b9ee-1b2f60a8a9e1")
+		)
+		(pin "3"
+			(uuid "b659f265-0edb-45dc-b5db-7ec78e7c12ed")
+		)
+		(pin "2"
+			(uuid "18b2aea0-ee20-4a90-9a96-b79b5cd1ef50")
+		)
+		(pin "1"
+			(uuid "35a5e5aa-c211-4382-9820-bcf745d796e1")
+		)
+		(pin "5"
+			(uuid "7ee6ed1e-2e96-414b-8c20-fe5f27c599f1")
+		)
+		(pin "4"
+			(uuid "ce54e73c-045c-4999-ac78-e96ec9152d44")
+		)
+		(pin "8"
+			(uuid "05e9c16a-2851-4f95-a915-0e399dd5c68b")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 77.47 97.79 0)
+		(mirror x)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb76b036-d3f4-4688-8f40-0cd69fcb1280")
+		(property "Reference" "U4"
+			(at 73.66 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 73.66 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ab817b0a-6b36-427c-b8ef-e2d8d7ba497e")
+		)
+		(pin "7"
+			(uuid "f017e96f-16ba-4530-adf9-ef33733aa7c1")
+		)
+		(pin "5"
+			(uuid "918c3a9c-998a-4d85-b2db-34799d3f186a")
+		)
+		(pin "4"
+			(uuid "08c685df-88d4-4136-bf5f-548ffc7d7d0c")
+		)
+		(pin "6"
+			(uuid "570489f0-4a3c-4166-98a5-3a1da527865e")
+		)
+		(pin "2"
+			(uuid "0027d2d5-ac38-44d4-8ccf-99a2525dd83b")
+		)
+		(pin "1"
+			(uuid "55d0a279-f075-45fd-b677-e3fca425e6f0")
+		)
+		(pin "8"
+			(uuid "8d0cce66-3dd1-4c5a-90f7-a97f70073b7b")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef000ce0-207d-4432-aea5-f301b3caf655")
+		(property "Reference" "C12"
+			(at 112.014 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 112.776 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 109.5248 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "497a5842-469f-4c13-90ef-2142fa794630")
+		)
+		(pin "2"
+			(uuid "e0888fe6-1306-4a15-b4bc-37c68065dbb4")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1474,7 +6025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 57.785 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1517,6 +6068,163 @@
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f521b552-89eb-4498-ad27-5da1fa33f849")
+		(property "Reference" "#PWR09"
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8666799-99a0-4597-8fc0-2d9cb42337d3")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f995267b-ae73-4562-8308-f5aa66833db6")
+		(property "Reference" "C15"
+			(at 143.764 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.272 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 141.2748 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8482f3c0-8e97-4d04-a6fc-49375d4aba67")
+		)
+		(pin "2"
+			(uuid "95f9a59c-0986-42ba-971f-ec56769abe24")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C15")
 					(unit 1)
 				)
 			)
