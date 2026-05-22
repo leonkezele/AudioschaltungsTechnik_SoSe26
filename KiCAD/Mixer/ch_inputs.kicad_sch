@@ -1238,98 +1238,28 @@
 		)
 	)
 	(junction
-		(at 71.12 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ea884a9-2367-4302-a29b-1c5a334c6d61")
-	)
-	(junction
 		(at 59.69 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "762ca1b8-c77a-4ba4-b432-3ece9cb4a457")
+		(uuid "0c9676cb-00eb-4825-a994-72dfd777fd0b")
+	)
+	(junction
+		(at 71.12 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d86e5e6-3c63-4844-92c4-809df2a32ccc")
 	)
 	(junction
 		(at 96.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a77ffcaf-ab0a-44ed-9c42-50a31ffd068d")
+		(uuid "d07dbe8f-0ea1-481e-b2a4-096063272b3f")
 	)
 	(junction
 		(at 105.41 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3309b64-fb77-419c-baf2-8cb6a8d0de18")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 71.12 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "064620bc-4e15-46b1-92b8-758bbb097f21")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 114.3 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f934bad-6627-4cdf-b4ce-cf281ec918de")
-	)
-	(wire
-		(pts
-			(xy 105.41 50.8) (xy 106.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f24d42-e946-42cf-91b6-f71d1e2f3fd4")
-	)
-	(wire
-		(pts
-			(xy 58.42 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b94461-6a3c-46a4-a314-c08e2e5135b8")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 59.69 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2871630a-f562-4799-ba72-f7ecffdf1bad")
-	)
-	(wire
-		(pts
-			(xy 59.69 58.42) (xy 59.69 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e893d2-8fe0-45c6-9f0c-7e8acc4d239a")
-	)
-	(wire
-		(pts
-			(xy 58.42 53.34) (xy 59.69 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c0e429-30a4-404c-bf6c-8c3901501a89")
+		(uuid "e9dc641d-c57c-4537-83bd-6d865d6251ec")
 	)
 	(wire
 		(pts
@@ -1339,17 +1269,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "be2bcf88-239e-4d43-b2c0-81822740cb88")
-	)
-	(wire
-		(pts
-			(xy 96.52 64.77) (xy 96.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d55f875d-6cbc-48f1-959c-a48e2a2b4bbf")
+		(uuid "059f78b0-48e0-4f94-bc71-2d6530ed7580")
 	)
 	(wire
 		(pts
@@ -1359,7 +1279,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e27fa480-5f85-49d1-b7c8-6686d2249fda")
+		(uuid "29b2d649-53f3-4381-9dfa-ced32aa8d1a8")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bcdb01-0509-4b10-b63b-56cc0ecb9e77")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4659e9-03f5-4708-977e-3f6bbfe50e2d")
+	)
+	(wire
+		(pts
+			(xy 105.41 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a448d95-c473-4cdf-bf2d-5c084b177d28")
 	)
 	(wire
 		(pts
@@ -1369,7 +1319,57 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "efc0251c-05b0-4c24-9528-9b3739bb24e0")
+		(uuid "a90c863e-eb6f-40ca-849d-5b0370d4f01a")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdc1ae0-feff-4317-a4b3-22b3005d9f0f")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02b8101-2bdc-4187-8510-e0a384d129ed")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd03694a-4de0-42fb-aea5-a6e828dc4d6e")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da30015d-2113-45b2-8023-2e16786ea8d6")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 96.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc7d03e-a46d-4f42-92ec-fc3a712be5dc")
 	)
 	(hierarchical_label "+12V"
 		(shape input)
@@ -1380,18 +1380,7 @@
 			)
 			(justify left)
 		)
-		(uuid "47c6edfe-6e58-4a2e-839e-5aa31784b5d7")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 59.69 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7feca77-91e6-4987-8509-86090ebf2b53")
+		(uuid "2cf09eeb-d1b5-4ce3-9550-965a7bfe76c9")
 	)
 	(hierarchical_label "inputs_out"
 		(shape output)
@@ -1402,11 +1391,22 @@
 			)
 			(justify right)
 		)
-		(uuid "e99191b7-04e3-4c59-8f49-e3e1394d2a05")
+		(uuid "677af85c-0f3f-4add-a219-d54e1f3e0a41")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 59.69 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b737fd7a-9ac4-4db5-a9d2-e84f6c1baa12")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 69.85 0)
+		(at 105.41 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1415,9 +1415,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "301d3531-1ef7-446d-80f1-f9fc853427d1")
-		(property "Reference" "#PWR011"
-			(at 59.69 76.2 0)
+		(uuid "14fb93c6-4822-4e86-b0e2-87e7f1c55cb9")
+		(property "Reference" "#PWR08"
+			(at 105.41 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 74.93 0)
+			(at 105.41 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1438,7 +1438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 69.85 0)
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1449,7 +1449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 69.85 0)
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1460,7 +1460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 69.85 0)
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1471,12 +1471,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "be509feb-0833-4f42-92fe-5b2ed975654f")
+			(uuid "428b6cb4-ed78-44cf-bb24-3adc0c8fc85f")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1493,7 +1493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3104c8c0-d149-499f-9b50-5c55f37cd786")
+		(uuid "5ca6e590-5089-482a-9ccf-149a64d113b0")
 		(property "Reference" "R3"
 			(at 116.84 33.02 0)
 			(show_name no)
@@ -1565,9 +1565,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 53.34 50.8 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 114.3 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1575,9 +1574,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "52f55f47-de2c-4aa2-ae6a-69912baed7c3")
-		(property "Reference" "J3"
-			(at 52.705 59.69 0)
+		(fields_autoplaced yes)
+		(uuid "6f4a102e-617d-4299-aa13-7c167a6c5ed7")
+		(property "Reference" "#PWR09"
+			(at 114.3 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1586,8 +1587,8 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack2"
-			(at 52.705 57.15 0)
+		(property "Value" "GND"
+			(at 114.3 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1596,8 +1597,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 53.34 50.8 0)
+		(property "Footprint" ""
+			(at 114.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1608,7 +1609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 50.8 0)
+			(at 114.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1618,8 +1619,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 53.34 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1629,16 +1630,93 @@
 				)
 			)
 		)
-		(pin "T"
-			(uuid "32481e53-39c7-4dad-82a5-74500c5b5610")
-		)
-		(pin "S"
-			(uuid "e5219e66-760b-48e3-995f-a753602b6c90")
+		(pin "1"
+			(uuid "0810dd2d-bc05-4602-8b8c-a19ee491d61f")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "J3")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c4a48ba-1286-44b0-afdf-a83c6eb9d79d")
+		(property "Reference" "R2"
+			(at 100.33 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 100.33 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 100.33 52.578 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e14be35-1b2c-472a-8ad6-f34cb8b5ce6c")
+		)
+		(pin "1"
+			(uuid "c2b12cab-d27d-45fd-bf44-2cd99242a05e")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1655,7 +1733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "595b572a-1fe6-4eb3-8558-ee75937d3209")
+		(uuid "8709f8d7-60a1-4153-b342-1030e8732877")
 		(property "Reference" "Q1"
 			(at 116.84 49.53 0)
 			(show_name no)
@@ -1763,6 +1841,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a139f588-0b96-4252-9120-63eb6d05dbd1")
+		(property "Reference" "R1"
+			(at 73.66 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k"
+			(at 73.66 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 72.898 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd3e69cc-2dcc-4ee4-8879-f1eab6d6e97d")
+		)
+		(pin "2"
+			(uuid "ce38f280-c58f-40e8-92b4-488d93ffaa10")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aef39752-859c-4b92-ac4c-8aeddf2aba6c")
+		(property "Reference" "C1"
+			(at 64.77 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2u"
+			(at 64.77 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.58 49.8348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c93c754-6e38-40a8-a71a-54df3ea6a4c8")
+		)
+		(pin "2"
+			(uuid "c35fcf0d-05fc-4b16-9560-7d694c89ec8e")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 105.41 54.61 270)
 		(unit 1)
@@ -1772,7 +2012,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "595f0158-697c-487f-aabc-97d0c2cf22d0")
+		(uuid "b42b848e-ec42-494b-b8a2-0acd1c41e058")
 		(property "Reference" "D1"
 			(at 101.346 54.356 90)
 			(show_name no)
@@ -1867,164 +2107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b4b782c-af6b-4d0e-885c-4a62679fd4b7")
-		(property "Reference" "#PWR012"
-			(at 105.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "428b6cb4-ed78-44cf-bb24-3adc0c8fc85f")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6300fc55-037f-4102-b85a-1220563bdc2c")
-		(property "Reference" "R2"
-			(at 100.33 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 100.33 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 100.33 52.578 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3e14be35-1b2c-472a-8ad6-f34cb8b5ce6c")
-		)
-		(pin "1"
-			(uuid "c2b12cab-d27d-45fd-bf44-2cd99242a05e")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 114.3 41.91 90)
 		(unit 1)
@@ -2035,7 +2117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a3cc6a89-60a3-4af9-b9ec-efd71d599780")
+		(uuid "bdbda602-9b0a-49bc-86ea-50071c85c8ba")
 		(property "Reference" "D2"
 			(at 118.11 42.2275 90)
 			(show_name no)
@@ -2118,170 +2200,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 54.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a48bfd8d-2cfa-463a-b200-bf7738aee679")
-		(property "Reference" "R1"
-			(at 73.66 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k"
-			(at 73.66 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 72.898 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd3e69cc-2dcc-4ee4-8879-f1eab6d6e97d")
-		)
-		(pin "2"
-			(uuid "ce38f280-c58f-40e8-92b4-488d93ffaa10")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 64.77 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e070edb9-5177-4241-a308-19126ae02de5")
-		(property "Reference" "C17"
-			(at 64.77 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u"
-			(at 64.77 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 68.58 49.8348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c93c754-6e38-40a8-a71a-54df3ea6a4c8")
-		)
-		(pin "2"
-			(uuid "c35fcf0d-05fc-4b16-9560-7d694c89ec8e")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 114.3 58.42 0)
+		(at 59.69 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2290,9 +2210,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ebaa29cc-60a3-4653-a403-d94e2e6f9e0a")
-		(property "Reference" "#PWR013"
-			(at 114.3 64.77 0)
+		(uuid "be7c8a04-80be-442f-a474-caf3d42da0f4")
+		(property "Reference" "#PWR07"
+			(at 59.69 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 63.5 0)
+			(at 59.69 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2313,7 +2233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 58.42 0)
+			(at 59.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,7 +2244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 58.42 0)
+			(at 59.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 58.42 0)
+			(at 59.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,12 +2266,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "0810dd2d-bc05-4602-8b8c-a19ee491d61f")
+			(uuid "be509feb-0833-4f42-92fe-5b2ed975654f")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
-					(reference "#PWR013")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 53.34 50.8 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceade630-13e1-4e49-a6f5-cb229d7d82ac")
+		(property "Reference" "J3"
+			(at 52.705 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2"
+			(at 52.705 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "32481e53-39c7-4dad-82a5-74500c5b5610")
+		)
+		(pin "S"
+			(uuid "e5219e66-760b-48e3-995f-a753602b6c90")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/ec5da5cc-7c1b-4e14-ac3c-00357a5f573e"
+					(reference "J3")
 					(unit 1)
 				)
 			)

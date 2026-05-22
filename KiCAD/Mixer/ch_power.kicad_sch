@@ -1568,6 +1568,12 @@
 		(uuid "74cc453f-033c-4a54-a931-c49b80d9e6e7")
 	)
 	(junction
+		(at 88.9 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c7a5c0d-51d8-4ef2-88db-06e7f6c385bb")
+	)
+	(junction
 		(at 49.53 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1638,6 +1644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be684b21-4866-4680-bb9e-e996e1283b70")
+	)
+	(junction
+		(at 87.63 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c91cc589-4195-45fb-9c09-ba712f8bcdd1")
 	)
 	(junction
 		(at 137.16 105.41)
@@ -1721,6 +1733,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0612ba36-edeb-4166-9b93-cd46225dfb3b")
+	)
+	(wire
+		(pts
 			(xy 125.73 90.17) (xy 137.16 90.17)
 		)
 		(stroke
@@ -1781,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 105.41 105.41)
+			(xy 80.01 105.41) (xy 88.9 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1848,6 +1870,16 @@
 			(type default)
 		)
 		(uuid "3404878d-8db3-47c0-85fb-69e5692e6919")
+	)
+	(wire
+		(pts
+			(xy 88.9 105.41) (xy 105.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349adfce-2338-46fe-a2b5-d7a8bcaea2af")
 	)
 	(wire
 		(pts
@@ -1971,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 90.17) (xy 105.41 90.17)
+			(xy 80.01 90.17) (xy 87.63 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "189054c4-efbe-4a6f-89dc-5585f8bfaf3f")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 127.508 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +2688,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2673,7 +2705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20871594-7dbb-417d-bcdb-6e9fe3bc864e")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 102.108 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +2787,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U6")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -2773,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c4ca483-c99f-4038-8ece-3e739483e4c2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR020"
 			(at 125.73 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2833,7 +2865,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR07")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2850,7 +2882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c608ddc-6190-413f-9f00-c65bc9bb0002")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 35.052 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +2944,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2930,7 +2962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4183171e-0a84-4272-b34a-754900965a4a")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 77.47 32.2961 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +3026,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C19")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3012,7 +3044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4275fc0c-cb10-43cd-a270-2bffa3f5a9c8")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 168.91 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3126,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U10")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -3134,7 +3166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.785 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3193,7 +3225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b55f425-d8fd-4cd2-941f-0cb59666d991")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 66.294 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3287,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3272,7 +3304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ddb0016-9ceb-4ed3-88a3-6a99b4d44958")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 81.28 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +3366,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3352,7 +3384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54e94481-1a31-490b-9c5c-9182363188c6")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR026"
 			(at 191.77 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3412,7 +3444,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR031")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3430,7 +3462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54fa45a1-177d-421d-a7f3-c5c74fae3cf4")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 193.802 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,7 +3524,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3509,7 +3541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b20e490-796c-440d-94a4-086832d38a6c")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 66.294 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +3603,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3590,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c483843-c277-4df6-b079-18ac985f7199")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 142.24 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3650,7 +3682,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3669,7 +3701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600c703a-2499-45b4-9df8-e566508c8b8c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR027"
 			(at 191.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3729,7 +3761,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR032")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66327d24-2993-48ff-a180-9081d4ebf3a1")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 35.052 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,7 +3841,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3826,7 +3858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e36189a-0ba2-4156-8921-92507ee5f48f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 40.894 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +3940,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U2")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -4030,7 +4062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8683ab46-7a75-416b-bd49-1b339a3ea4c5")
-		(property "Reference" "U3"
+		(property "Reference" "U10"
 			(at 56.642 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +4144,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U3")
+					(reference "U10")
 					(unit 3)
 				)
 			)
@@ -4129,7 +4161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89109ac7-d437-41b0-9385-0d2ceae7a87c")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 50.8 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4223,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4209,7 +4241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc694e9-f805-49bb-9238-429d0a0eac76")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 177.292 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,7 +4303,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90fc394e-90c8-4999-90a8-c8e72aa093c2")
-		(property "Reference" "C20"
+		(property "Reference" "C10"
 			(at 77.47 61.5061 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4385,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C20")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949d6e4e-1679-4a58-ab31-e0602dac3c97")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 150.368 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +4484,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U9")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -4469,7 +4501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99e89855-cef1-4f99-8c34-f9fbfc33b646")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 81.28 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4563,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4550,7 +4582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c26231f-4350-46fa-a81c-80ec1febd94d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR021"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4610,7 +4642,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR08")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4629,7 +4661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e867d07-5f03-4601-89a2-993ab766adc6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR025"
 			(at 175.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4689,7 +4721,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR030")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4795,6 +4827,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 88.9 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7eb461b-0357-42e4-bb81-88d4f041ba30")
+		(property "Reference" "C14"
+			(at 90.17 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 91.186 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 87.9348 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79bd6de5-6f90-40e5-a22d-7b91224bc43c")
+		)
+		(pin "2"
+			(uuid "ed1ee285-a832-4108-95dc-1d207e3cb063")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 139.7 97.79 0)
 		(mirror x)
@@ -4806,7 +4917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab1c7871-d0f4-4ece-b912-1be053b491f4")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 136.144 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,7 +4999,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U8")
+					(reference "U4")
 					(unit 3)
 				)
 			)
@@ -4905,7 +5016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad6f3fd5-7a40-408b-a8f5-698ff1060fd3")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 193.802 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4967,7 +5078,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4984,7 +5095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0a25391-f9be-4869-87a1-53e6f5270ce7")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 127.508 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +5157,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5147,7 +5258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5742555-56d4-450f-9c12-77c60b1b8716")
-		(property "Reference" "C16"
+		(property "Reference" "C20"
 			(at 144.018 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,7 +5320,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C16")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5309,7 +5420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8f87874-0f44-4836-84d1-28cca3a98df5")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 116.586 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5502,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U7")
+					(reference "U9")
 					(unit 3)
 				)
 			)
@@ -5408,7 +5519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6376d2c-7c2d-4d86-a87c-92eb4949f981")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 177.038 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5470,7 +5581,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbfa0d0e-fdeb-4928-ae94-870a72c8283d")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 51.054 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5660,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5567,7 +5678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbec3f90-7db2-42db-a9dc-1f833d3e0ff3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR024"
 			(at 175.26 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +5738,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR029")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e38848ba-c8af-4ee7-989d-2d7d287a06c0")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 112.268 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5706,7 +5817,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5723,7 +5834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4a2cb91-e0ea-4086-b6af-547b92726a77")
-		(property "Reference" "U11"
+		(property "Reference" "U7"
 			(at 182.372 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +5916,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U11")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -5824,7 +5935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb76b036-d3f4-4688-8f40-0cd69fcb1280")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 73.66 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +6017,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "U4")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -5923,7 +6034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef000ce0-207d-4432-aea5-f301b3caf655")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 112.014 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +6096,86 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C12")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "effa7d61-3205-40d2-a301-65d48d2c102e")
+		(property "Reference" "C13"
+			(at 88.9 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 90.17 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 86.6648 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8552e25c-bb46-4139-8023-310846a56a16")
+		)
+		(pin "2"
+			(uuid "327b0ca1-9e72-4bc8-89ae-700d3cc2fd72")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.785 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f521b552-89eb-4498-ad27-5da1fa33f849")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR022"
 			(at 142.24 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6145,7 +6335,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "#PWR09")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f995267b-ae73-4562-8308-f5aa66833db6")
-		(property "Reference" "C15"
+		(property "Reference" "C19"
 			(at 143.764 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6224,7 +6414,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/932feda2-710a-4894-b943-37dbe0c193d3"
-					(reference "C15")
+					(reference "C19")
 					(unit 1)
 				)
 			)

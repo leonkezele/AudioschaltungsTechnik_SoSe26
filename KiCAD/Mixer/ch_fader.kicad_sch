@@ -904,7 +904,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "10k"
 			(at 78.74 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1011,7 +1011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c3f272-ce71-4038-b8a4-984375464ee6")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 78.74 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1091,7 +1091,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1188,7 +1188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c62140e4-44ee-4059-ad7c-a976dbd8dd6a")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 92.202 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1250,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/e455183a-ba3c-419d-9cae-765ff61c6b78"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)

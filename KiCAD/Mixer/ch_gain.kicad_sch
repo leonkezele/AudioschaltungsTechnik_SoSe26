@@ -1355,7 +1355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "428043c4-eb47-403a-8415-7751cf65deb8")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 81.788 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1417,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/874eb9e3-c612-43fb-9dc5-24309708e7ee"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1516,7 +1516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac6fd780-fc27-481d-b96a-50544aab82df")
-		(property "Reference" "R58"
+		(property "Reference" "R6"
 			(at 100.838 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1578,7 +1578,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/874eb9e3-c612-43fb-9dc5-24309708e7ee"
-					(reference "R58")
+					(reference "R6")
 					(unit 1)
 				)
 			)

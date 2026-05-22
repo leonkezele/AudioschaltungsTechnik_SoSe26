@@ -710,10 +710,28 @@
 		)
 	)
 	(junction
+		(at 85.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c8d27c-fb0a-4afb-99d7-f8b67ada5170")
+	)
+	(junction
+		(at 67.31 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c209aa-0522-433a-8aba-1953dfd52efe")
+	)
+	(junction
 		(at 67.31 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13e700ce-acfe-4633-b028-41bbb4c1b097")
+		(uuid "2cd224cc-bd2c-49ee-ba30-16539509abae")
+	)
+	(junction
+		(at 67.31 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "387361cb-6b88-4007-889a-7c062dab13de")
 	)
 	(junction
 		(at 85.09 74.93)
@@ -722,28 +740,16 @@
 		(uuid "454feaaa-a83c-47e7-bfdf-6f0f58544357")
 	)
 	(junction
-		(at 85.09 66.04)
+		(at 85.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61a49704-4adc-4159-b38b-3b99badb1a02")
-	)
-	(junction
-		(at 67.31 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bd55b34-88af-44a9-8f97-132954b873f0")
+		(uuid "6c4c35ad-e015-4b26-8cfb-7e6923f1b3bf")
 	)
 	(junction
 		(at 48.26 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99325be4-c675-4b5e-86f2-27e3070d286e")
-	)
-	(junction
-		(at 85.09 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d7a5b75-de60-4538-bc25-4d8c36cb4af4")
+		(uuid "81e42acd-fe58-4a66-b748-bb13aa761175")
 	)
 	(junction
 		(at 67.31 74.93)
@@ -752,194 +758,18 @@
 		(uuid "b7ff85a7-ac44-45ce-8a8c-c0fd4e1bd558")
 	)
 	(junction
-		(at 67.31 96.52)
+		(at 85.09 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e360359f-8ace-4641-9df3-a842909c8300")
-	)
-	(junction
-		(at 85.09 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5e3a7e3-d74d-4cda-885b-1526a228d389")
+		(uuid "df944d0c-c3fb-479c-a3b8-73a2ccf782de")
 	)
 	(no_connect
 		(at 26.67 21.59)
-		(uuid "9b03e3d7-5882-468f-a2b5-4a8548c7686d")
+		(uuid "37c08121-0fc0-4ff9-898b-6b72269f3203")
 	)
 	(no_connect
 		(at 26.67 25.4)
-		(uuid "ff19ca66-6c41-46d9-a03a-36627ee45f1f")
-	)
-	(wire
-		(pts
-			(xy 67.31 68.58) (xy 68.58 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0069f552-0935-44aa-a008-641add086450")
-	)
-	(wire
-		(pts
-			(xy 85.09 66.04) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a62e30-9c56-4b0d-b7bf-d4625535c11e")
-	)
-	(wire
-		(pts
-			(xy 67.31 91.44) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aee5ff7-358c-4569-bbd9-6ce05ac573ac")
-	)
-	(wire
-		(pts
-			(xy 59.69 78.74) (xy 59.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27caa43c-f584-4944-ab9f-60f8cbf3f557")
-	)
-	(wire
-		(pts
-			(xy 67.31 96.52) (xy 67.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27fb6974-af9a-4f25-8416-5db0fd3233ad")
-	)
-	(wire
-		(pts
-			(xy 85.09 80.01) (xy 85.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2a73a2-24d5-407a-9bf2-3969da37f510")
-	)
-	(wire
-		(pts
-			(xy 67.31 63.5) (xy 68.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36777400-42dd-4c46-9a2c-72304e564ae4")
-	)
-	(wire
-		(pts
-			(xy 80.01 80.01) (xy 85.09 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36fd8ea8-b782-411f-a198-0dd91eeeb5ce")
-	)
-	(wire
-		(pts
-			(xy 67.31 91.44) (xy 68.58 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43830313-4471-4652-aecb-56ce4de402b3")
-	)
-	(wire
-		(pts
-			(xy 67.31 57.15) (xy 67.31 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44551d7f-1817-4c79-92a8-414d617f8a4b")
-	)
-	(wire
-		(pts
-			(xy 85.09 74.93) (xy 93.98 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af25625-92f9-4a22-9b9b-0c4980c41462")
-	)
-	(wire
-		(pts
-			(xy 72.39 80.01) (xy 67.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551af86b-08e6-4fc1-90c7-2927cf92b684")
-	)
-	(wire
-		(pts
-			(xy 80.01 58.42) (xy 85.09 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c788d1-ba45-45f3-a980-0f60925cf692")
-	)
-	(wire
-		(pts
-			(xy 80.01 96.52) (xy 85.09 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7acb83-53fa-4d4c-91fd-2e4555c74061")
-	)
-	(wire
-		(pts
-			(xy 52.07 80.01) (xy 67.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df790e8-edd1-414c-900d-9a931be1da66")
-	)
-	(wire
-		(pts
-			(xy 85.09 58.42) (xy 85.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f763884-2272-4672-8faa-faf3157430fb")
-	)
-	(wire
-		(pts
-			(xy 80.01 74.93) (xy 85.09 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe128b6-93be-4e00-98ac-461e9fcd7b34")
+		(uuid "694454a8-3860-47c8-84e2-f344c14b62ed")
 	)
 	(wire
 		(pts
@@ -949,97 +779,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "634dd917-e0ac-4a49-836e-2e6b99271e75")
+		(uuid "0412e1e8-e1fb-408c-b39f-5dd7bccc9e74")
 	)
 	(wire
 		(pts
-			(xy 48.26 83.82) (xy 48.26 85.09)
+			(xy 85.09 58.42) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c09ae07-a565-4253-a178-63bfb57d53d4")
+		(uuid "0bae298b-24cb-4f5e-80a2-959daf617217")
 	)
 	(wire
 		(pts
-			(xy 72.39 74.93) (xy 67.31 74.93)
+			(xy 67.31 91.44) (xy 68.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ae4e044-8b62-45bd-a568-7469210e404d")
-	)
-	(wire
-		(pts
-			(xy 85.09 66.04) (xy 85.09 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2f2736-485f-4e70-afd3-cdc4078ff34e")
-	)
-	(wire
-		(pts
-			(xy 67.31 80.01) (xy 67.31 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e3b479-3923-4188-aa3c-dd30d4a64363")
-	)
-	(wire
-		(pts
-			(xy 85.09 96.52) (xy 85.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9602642f-0025-49a0-b940-241f5734de64")
-	)
-	(wire
-		(pts
-			(xy 72.39 96.52) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fcfd7c7-6138-4051-a90b-2ebb577f05ec")
-	)
-	(wire
-		(pts
-			(xy 67.31 86.36) (xy 68.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa1c36ca-add5-4dea-b7e9-a35bb9ad7bcd")
-	)
-	(wire
-		(pts
-			(xy 67.31 58.42) (xy 72.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8fb9a56-b03d-4d7e-86e7-87c019a72ed9")
-	)
-	(wire
-		(pts
-			(xy 67.31 58.42) (xy 67.31 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9dfd5d0-2028-466e-a8ae-304a846566bf")
+		(uuid "11252442-3246-4ee2-9e7c-87044a65bb80")
 	)
 	(wire
 		(pts
@@ -1049,57 +809,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c441f621-7669-49a8-a716-5f7c19798df3")
+		(uuid "1c8c2cc7-dab8-4be9-8fa4-491eba267db8")
 	)
 	(wire
 		(pts
-			(xy 63.5 74.93) (xy 67.31 74.93)
+			(xy 67.31 68.58) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc0a5ed0-e71c-4221-a525-c0f275c262cd")
-	)
-	(wire
-		(pts
-			(xy 39.37 66.04) (xy 48.26 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccbaba66-ccb2-4d92-964c-1b7da2c24de9")
-	)
-	(wire
-		(pts
-			(xy 67.31 74.93) (xy 67.31 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02d0231-d70c-4b0d-a744-3ede029ee210")
-	)
-	(wire
-		(pts
-			(xy 48.26 66.04) (xy 48.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d33345df-2ab0-4cb0-88cb-a2c1cad2ee9f")
-	)
-	(wire
-		(pts
-			(xy 59.69 71.12) (xy 59.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5dfd5c9-af06-4fc2-8861-d2ed378f8259")
+		(uuid "241ddbed-ed90-4a59-b940-f754425a9806")
 	)
 	(wire
 		(pts
@@ -1109,7 +829,67 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dbb8ffdc-5860-45f5-b63d-be6225aaec3f")
+		(uuid "250cb8f0-be7b-43f2-bb79-841528c87253")
+	)
+	(wire
+		(pts
+			(xy 85.09 96.52) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a79cd69-53fb-4f9f-bea4-b0628d610a16")
+	)
+	(wire
+		(pts
+			(xy 48.26 66.04) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c43e48f-6368-47d9-a0df-ca55651ea166")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f769fee-346b-4c7b-8c5b-c8e46fc40e06")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8df0aa-cf0e-45fb-b5ab-c657ce99eecd")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc36b76-cc1c-41c6-8d6f-91e541f2cbb6")
+	)
+	(wire
+		(pts
+			(xy 67.31 96.52) (xy 67.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9e3c97-ee61-4fd7-831f-6d31559d718e")
 	)
 	(wire
 		(pts
@@ -1119,7 +899,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f66feb61-2c3a-4155-978c-a30d4c4f945b")
+		(uuid "5ddecf32-d693-4870-8558-2f725359a0ea")
+	)
+	(wire
+		(pts
+			(xy 59.69 78.74) (xy 59.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e50a3f6-5f5f-40ce-9c52-fe5aeecf39be")
 	)
 	(wire
 		(pts
@@ -1129,17 +919,217 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "faa9de91-5a3d-4186-9e1b-703d5939b7c3")
+		(uuid "6a4b66d7-64a3-43a6-b41a-9f81544af0b1")
 	)
-	(label "GND"
-		(at 48.26 85.09 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 67.31 80.01)
 		)
-		(uuid "5e9c113d-a9c5-4cc9-9080-6bca924c5f7c")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8dd83c-a472-4f2c-8d0a-8472f648b884")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7608d0a8-e68c-4069-9b09-13054b29d39b")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767bd39a-24fd-441f-8306-8aa80f88560a")
+	)
+	(wire
+		(pts
+			(xy 39.37 66.04) (xy 48.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7837b0c7-df8a-439a-8972-36fcd33a8080")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80823dfe-18ba-4894-b0c6-8c57e6c1fd04")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820adc0d-afd7-49a8-9ad2-499b4a40f6ad")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b664209-a31c-428d-af2e-8ab56b5f009c")
+	)
+	(wire
+		(pts
+			(xy 85.09 66.04) (xy 83.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5542bf-4758-4b9e-8762-97911b3759e7")
+	)
+	(wire
+		(pts
+			(xy 85.09 66.04) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb84c19-120d-48d8-b901-70976fc8b83a")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fad01c-b4d5-476f-a146-8795e39481f1")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 59.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd7608-d7dc-49b5-83f0-eac83caeca36")
+	)
+	(wire
+		(pts
+			(xy 52.07 80.01) (xy 67.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab33db7f-5ef4-4160-8f86-e1a05f39f992")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11c797c-0b0f-481f-a2eb-c3c18f3ea2cd")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b662727d-0336-49fc-9539-1ed4da6eb129")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc896700-6271-4fab-bc9f-1548f48cbd0a")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a130ca-096c-4a9a-98e2-d1fd7e13b7b9")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dc1dc4-ec96-43dd-8610-b65d2d975258")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3a6901-ee96-412c-8ae2-4aeb70cea55f")
+	)
+	(wire
+		(pts
+			(xy 67.31 63.5) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddb134a-8e89-403d-a8f1-051e38779b14")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbad05c-4578-41ac-a74e-df4d7e05ab7f")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0c4527-4179-4178-96f9-cf5ae7084c9e")
 	)
 	(label "GND"
 		(at 59.69 85.09 270)
@@ -1149,27 +1139,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "772226e0-7899-45f5-a88b-8e3c6b9b8c92")
+		(uuid "3ced3557-5984-4ca5-825e-8235af767339")
 	)
 	(label "GND"
-		(at 67.31 105.41 270)
+		(at 48.26 85.09 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "915c88fe-d621-4a6a-a424-dfdc1415f3cf")
-	)
-	(label "GND"
-		(at 67.31 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac0f6601-5ff0-4fd1-9bf9-ca5f864d0a2d")
+		(uuid "40d468f7-67e7-4755-b445-ef82d73dd942")
 	)
 	(label "GND"
 		(at 27.94 30.48 270)
@@ -1179,51 +1159,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eabc78d0-25f5-4a7f-9591-7f06237de946")
+		(uuid "6baf51eb-f216-43c8-80c6-70ef45cfe335")
 	)
-	(hierarchical_label "-12V"
-		(shape input)
-		(at 26.67 25.4 180)
+	(label "GND"
+		(at 67.31 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0ded6826-6457-4cb9-9119-9619e833ef59")
+		(uuid "c6078ddb-c7a7-47d7-9658-e918543e042c")
 	)
-	(hierarchical_label "pan_in"
-		(shape input)
-		(at 39.37 66.04 180)
+	(label "GND"
+		(at 67.31 105.41 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "24f7703c-5ceb-4712-a04c-3aa9ba854a86")
-	)
-	(hierarchical_label "pan_outR"
-		(shape output)
-		(at 93.98 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "366d5054-f445-4e5d-ade1-73bc77032b92")
-	)
-	(hierarchical_label "+12V"
-		(shape input)
-		(at 26.67 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ee19e50-63c6-4bdb-9c17-d6365f2676e6")
+		(uuid "d5eda1c4-d2f7-4e10-8bb1-534a60acb091")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1234,7 +1190,51 @@
 			)
 			(justify right)
 		)
-		(uuid "85e382e2-e1b8-4f83-9355-17aba66b2b08")
+		(uuid "0becc49b-767b-484e-acaf-1d46448df9eb")
+	)
+	(hierarchical_label "-12V"
+		(shape input)
+		(at 26.67 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1543f56f-5339-4e49-a4f0-d72ba98080b9")
+	)
+	(hierarchical_label "pan_outR"
+		(shape output)
+		(at 93.98 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34201359-2048-4273-86f8-236d227d89fe")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 26.67 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c02bb15-8472-4df4-88e0-c0233377e893")
+	)
+	(hierarchical_label "pan_in"
+		(shape input)
+		(at 39.37 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "655f82c1-19a9-4f23-9988-8b711d42c2dc")
 	)
 	(hierarchical_label "pan_outL"
 		(shape output)
@@ -1245,7 +1245,286 @@
 			)
 			(justify left)
 		)
-		(uuid "9cb0aa49-2436-40f3-8695-f58991b8d76f")
+		(uuid "f134174f-c694-46cf-b6ea-32dda5254b39")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 101.6 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0addc4f4-6360-462f-a946-1bad124b11c3")
+		(property "Reference" "R70"
+			(at 64.77 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k3"
+			(at 64.77 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 65.532 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "04bb501b-0ffc-4087-a0ad-20a09e9c5521")
+		)
+		(pin "1"
+			(uuid "140e2247-abca-4e51-9990-6a35d8e6266a")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 76.2 66.04 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "366344b3-d2f1-4240-bdb9-23ecf54a01a3")
+		(property "Reference" "U10"
+			(at 76.2 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 77.978 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3bee9cae-697c-49f6-b018-df1894290d63")
+		)
+		(pin "5"
+			(uuid "ebc4e237-201d-4a8a-a7da-d5709b4cf362")
+		)
+		(pin "7"
+			(uuid "984efba2-dc24-4d27-8a7c-efa5b2d7275f")
+		)
+		(pin "3"
+			(uuid "592dd5ed-a2eb-4723-a2d5-d41f2733b96c")
+		)
+		(pin "1"
+			(uuid "76a847ed-fd5b-4dd0-a90c-5b8a2e6e9167")
+		)
+		(pin "2"
+			(uuid "af281c46-93ae-465b-91f7-566fbeea20cc")
+		)
+		(pin "4"
+			(uuid "b0a88734-8578-4689-bac4-dd957ef23bbe")
+		)
+		(pin "8"
+			(uuid "5578fe76-cc4f-4f12-adf4-adb0b7907050")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 76.2 88.9 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39631708-f4d9-4fb6-b361-f24cb0540dec")
+		(property "Reference" "U10"
+			(at 76.2 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 76.2 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 76.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 76.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 76.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3bee9cae-697c-49f6-b018-df1894290d64")
+		)
+		(pin "5"
+			(uuid "ebc4e237-201d-4a8a-a7da-d5709b4cf363")
+		)
+		(pin "7"
+			(uuid "984efba2-dc24-4d27-8a7c-efa5b2d72760")
+		)
+		(pin "3"
+			(uuid "592dd5ed-a2eb-4723-a2d5-d41f2733b96d")
+		)
+		(pin "1"
+			(uuid "76a847ed-fd5b-4dd0-a90c-5b8a2e6e9168")
+		)
+		(pin "2"
+			(uuid "af281c46-93ae-465b-91f7-566fbeea20cd")
+		)
+		(pin "4"
+			(uuid "b0a88734-8578-4689-bac4-dd957ef23bbf")
+		)
+		(pin "8"
+			(uuid "5578fe76-cc4f-4f12-adf4-adb0b7907051")
+		)
+		(instances
+			(project "Mixer"
+				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
@@ -1257,8 +1536,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "019f73b3-ab20-45cb-b544-d8800b36983b")
-		(property "Reference" "RV12"
+		(uuid "418919ec-1f1c-44a3-a05e-a8be8fe2489d")
+		(property "Reference" "RV10"
 			(at 46.482 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1390,7 +1669,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "RV12")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 53.34 0)
+		(at 76.2 58.42 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1408,31 +1687,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "05dbf38e-f8b1-42d5-9cea-a37f6d66f9b7")
-		(property "Reference" "R83"
-			(at 64.77 52.07 0)
+		(uuid "4dbd14ae-148a-40d0-8bda-06f82f9120c7")
+		(property "Reference" "R71"
+			(at 76.2 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "3k3"
-			(at 64.77 54.61 0)
+		(property "Value" "1k"
+			(at 76.2 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 65.532 53.34 90)
+			(at 76.2 56.642 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 53.34 0)
+			(at 76.2 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1454,7 +1731,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 53.34 0)
+			(at 76.2 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,23 +1742,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "4e1fecb6-90dc-438f-b0e0-7e9c4bacf8ef")
+			(uuid "4fd12bb4-7df0-4670-a8fa-638d4f52bc4d")
 		)
 		(pin "1"
-			(uuid "07564b0a-7012-4cae-b44e-5fb16484c77f")
+			(uuid "1d92c0ae-cd93-4f17-8e0b-b91b84cbf71d")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "R83")
+					(reference "R71")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 76.2 66.04 0)
+		(lib_id "Device:R")
+		(at 76.2 80.01 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1490,9 +1767,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "366344b3-d2f1-4240-bdb9-23ecf54a01a3")
-		(property "Reference" "U3"
-			(at 76.2 55.88 0)
+		(uuid "5e7b5ed0-c483-46b3-8fd0-26267ce51d63")
+		(property "Reference" "R73"
+			(at 71.374 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1501,8 +1778,8 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
-			(at 77.978 62.23 0)
+		(property "Value" "3k3"
+			(at 71.374 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1511,8 +1788,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 76.2 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 76.2 78.232 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,8 +1799,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 76.2 66.04 0)
+		(property "Datasheet" ""
+			(at 76.2 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,8 +1810,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 76.2 66.04 0)
+		(property "Description" "Resistor"
+			(at 76.2 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,35 +1820,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "3bee9cae-697c-49f6-b018-df1894290d63")
-		)
-		(pin "5"
-			(uuid "ebc4e237-201d-4a8a-a7da-d5709b4cf362")
-		)
-		(pin "7"
-			(uuid "984efba2-dc24-4d27-8a7c-efa5b2d7275f")
-		)
-		(pin "3"
-			(uuid "592dd5ed-a2eb-4723-a2d5-d41f2733b96c")
-		)
-		(pin "1"
-			(uuid "76a847ed-fd5b-4dd0-a90c-5b8a2e6e9167")
 		)
 		(pin "2"
-			(uuid "af281c46-93ae-465b-91f7-566fbeea20cc")
+			(uuid "dd597478-3789-4c23-9153-28774b44c322")
 		)
-		(pin "4"
-			(uuid "b0a88734-8578-4689-bac4-dd957ef23bbe")
-		)
-		(pin "8"
-			(uuid "5578fe76-cc4f-4f12-adf4-adb0b7907050")
+		(pin "1"
+			(uuid "bccf45fe-7dfd-4d4d-af2a-14558df666dd")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "U3")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -1588,8 +1847,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3673a2d4-5c4c-4a94-9935-1515990ed5f0")
-		(property "Reference" "R91"
+		(uuid "74ae8300-5b88-4337-aa78-d64f5c48ee21")
+		(property "Reference" "R72"
 			(at 81.026 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1651,26 +1910,26 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "R91")
+					(reference "R72")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 76.2 88.9 0)
-		(unit 2)
+		(lib_id "Device:R")
+		(at 76.2 96.52 90)
+		(mirror x)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39631708-f4d9-4fb6-b361-f24cb0540dec")
-		(property "Reference" "U3"
-			(at 76.2 78.74 0)
+		(uuid "b2be7d04-2973-4a04-8cf4-446f85c12140")
+		(property "Reference" "R74"
+			(at 81.28 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1679,8 +1938,8 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
-			(at 76.2 81.28 0)
+		(property "Value" "1k"
+			(at 81.28 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1689,8 +1948,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 76.2 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 76.2 94.742 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,8 +1959,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 76.2 88.9 0)
+		(property "Datasheet" ""
+			(at 76.2 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,8 +1970,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 76.2 88.9 0)
+		(property "Description" "Resistor"
+			(at 76.2 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,36 +1980,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "3bee9cae-697c-49f6-b018-df1894290d64")
-		)
-		(pin "5"
-			(uuid "ebc4e237-201d-4a8a-a7da-d5709b4cf363")
-		)
-		(pin "7"
-			(uuid "984efba2-dc24-4d27-8a7c-efa5b2d72760")
-		)
-		(pin "3"
-			(uuid "592dd5ed-a2eb-4723-a2d5-d41f2733b96d")
-		)
-		(pin "1"
-			(uuid "76a847ed-fd5b-4dd0-a90c-5b8a2e6e9168")
 		)
 		(pin "2"
-			(uuid "af281c46-93ae-465b-91f7-566fbeea20cd")
+			(uuid "9905e928-2a11-4d19-88f2-468b9c6ebc76")
 		)
-		(pin "4"
-			(uuid "b0a88734-8578-4689-bac4-dd957ef23bbf")
-		)
-		(pin "8"
-			(uuid "5578fe76-cc4f-4f12-adf4-adb0b7907051")
+		(pin "1"
+			(uuid "7fccf8fe-e3c7-44d7-b71f-64b110b2aae3")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "U3")
-					(unit 2)
+					(reference "R74")
+					(unit 1)
 				)
 			)
 		)
@@ -1766,8 +2007,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3e643801-59bf-4091-ac32-b4a6b259f958")
-		(property "Reference" "RV12"
+		(uuid "c23278b3-5aa9-4511-bcc7-9ddd9d8ce99d")
+		(property "Reference" "RV10"
 			(at 58.674 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +2139,7 @@
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "RV12")
+					(reference "RV10")
 					(unit 2)
 				)
 			)
@@ -1906,87 +2147,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 80.01 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "832ff0e0-532d-4f86-a47c-8ed66fd2caf4")
-		(property "Reference" "R89"
-			(at 71.374 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k3"
-			(at 71.374 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 76.2 78.232 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dd597478-3789-4c23-9153-28774b44c322")
-		)
-		(pin "1"
-			(uuid "bccf45fe-7dfd-4d4d-af2a-14558df666dd")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 58.42 90)
+		(at 67.31 53.34 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1996,170 +2157,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df6823ed-f117-4aa5-83fa-3702ee5cf9c5")
-		(property "Reference" "R81"
-			(at 76.2 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 76.2 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 76.2 56.642 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4fd12bb4-7df0-4670-a8fa-638d4f52bc4d")
-		)
-		(pin "1"
-			(uuid "1d92c0ae-cd93-4f17-8e0b-b91b84cbf71d")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 96.52 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e330dffd-5aff-4793-b087-41e174ba685c")
-		(property "Reference" "R85"
-			(at 81.28 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 81.28 98.044 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 76.2 94.742 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9905e928-2a11-4d19-88f2-468b9c6ebc76")
-		)
-		(pin "1"
-			(uuid "7fccf8fe-e3c7-44d7-b71f-64b110b2aae3")
-		)
-		(instances
-			(project "Mixer"
-				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 67.31 101.6 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5141302-e728-4eed-972f-fe2e00f7acd5")
-		(property "Reference" "R87"
-			(at 64.77 100.33 0)
+		(uuid "fddf597e-3824-4e1f-8d12-c909c251be7c")
+		(property "Reference" "R69"
+			(at 64.77 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2170,7 +2170,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 64.77 102.87 0)
+			(at 64.77 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2181,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 65.532 101.6 90)
+			(at 65.532 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,7 +2192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 101.6 0)
+			(at 67.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 101.6 0)
+			(at 67.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,15 +2214,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "04bb501b-0ffc-4087-a0ad-20a09e9c5521")
+			(uuid "4e1fecb6-90dc-438f-b0e0-7e9c4bacf8ef")
 		)
 		(pin "1"
-			(uuid "140e2247-abca-4e51-9990-6a35d8e6266a")
+			(uuid "07564b0a-7012-4cae-b44e-5fb16484c77f")
 		)
 		(instances
 			(project "Mixer"
 				(path "/322d427a-6aae-4762-92d6-d97688daf29b/8a2849b7-184d-4014-bb98-da9dec8b5f90/cea36016-c788-4767-8a0d-1508f3be4f70"
-					(reference "R87")
+					(reference "R69")
 					(unit 1)
 				)
 			)
